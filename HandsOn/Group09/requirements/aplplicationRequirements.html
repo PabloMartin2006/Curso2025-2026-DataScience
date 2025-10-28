@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Requisitos de la Aplicación: Agente de Fichajes Semántico</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1 { color: #1a5a90; }
+        h2 { border-bottom: 2px solid #ddd; padding-bottom: 5px; color: #1a5a90; }
+        .requirement-list { list-style-type: none; padding-left: 0; }
+        .requirement-list li { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9; }
+        .mockup-container { margin-top: 30px; border: 1px dashed #999; padding: 20px; background-color: #fff; }
+        .mockup-header { background-color: #34495e; color: white; padding: 8px; text-align: center; }
+        .mockup-sidebar { width: 30%; float: left; padding: 10px; border-right: 1px solid #ccc; }
+        .mockup-main { width: 65%; float: right; padding: 10px; }
+        .mockup-criteria { margin-bottom: 15px; padding: 8px; border: 1px solid #bdc3c7; background-color: #ecf0f1; }
+        .clearfix::after { content: ""; clear: both; display: table; }
+    </style>
+</head>
+<body>
+
+    <h1>Aplicación Propuesta: Agente de Fichajes Semántico</h1>
+    <p>El objetivo es construir una herramienta web que permita realizar tareas avanzadas de "scouting" y análisis comparativo utilizando la información enlazada y estructurada en RDF.</p>
+
+    <h2>Requisitos Funcionales de la Aplicación</h2>
+
+    <ul class="requirement-list">
+        <li><strong>FR1 (Búsqueda Semántica):</strong> La aplicación debe ejecutar consultas "SPARQL" complejas, combinando atributos y relaciones para encontrar jugadores específicos.
+            <br><em>Ejemplo de consulta:</em> "Encontrar mediocampistas defensivos (CDM) que tengan un valor de potencial (Potential) superior a 85 Y que compartan el mismo país de origen con un jugador de la plantilla actual."</li>
+        
+        <li><strong>FR2 (Integración de Datos Enlazados):</strong> Al mostrar el perfil de un jugador o club, la aplicación debe recuperar y mostrar información descriptiva adicional desde "DBPedia" o "Wikidata", demostrando la utilidad del "linking".
+            <br><em>Ejemplo:</em> Mostrar la URL de la página de "DBPedia" y un breve resumen del país del jugador.</li>
+            
+        <li><strong>FR3 (Análisis de Relaciones):</strong> La interfaz debe visualizar los vínculos semánticos entre los jugadores.
+            <br><em>Ejemplo:</em> Un gráfico que muestre a todos los jugadores de un club que superan un umbral de habilidad y si han jugado previamente en el mismo equipo (dato enlazado).</li>
+            
+        <li><strong>FR4 (Comparación de Atributos):</strong> La aplicación debe permitir la selección y comparación visual (por ejemplo, mediante un gráfico de radar) de las estadísticas clave de hasta tres jugadores simultáneamente.</li>
+    </ul>
+
+    <h2>Mock-up de la Interfaz de Usuario Esperada</h2>
+
+    <div class="mockup-container clearfix">
+        <div class="mockup-header">
+            Agente de Fichajes Semántico - Perfil de Jugador
+        </div>
+        
+        <div class="mockup-sidebar">
+            <label for="search">Búsqueda Avanzada Semántica:</label>
+            <div class="mockup-criteria">
+                <p><strong>Criterio 1: Posición Principal</strong></p>
+                <select><option>CB (Defensa Central)</option></select>
+                <p><strong>Criterio 2: Nacionalidad</strong></p>
+                <select><option>Brasil</option><option>Francia</option></select>
+                <p><strong>Criterio 3: Potencial Mínimo (RDF Data)</strong></p>
+                <input type="range" value="85" min="70" max="100"> <span>> 85</span>
+                <button style="width: 100%; margin-top: 10px;">Ejecutar Búsqueda SPARQL</button>
+            </div>
+            
+            <p><strong>Resultados de la Búsqueda (3 Candidatos):</strong></p>
+            <ul>
+                <li>Jugador A (86 POT)</li>
+                <li>Jugador B (88 POT)</li>
+                <li>Jugador C (85 POT)</li>
+            </ul>
+        </div>
+        
+        <div class="mockup-main">
+            <h2>Perfil Detallado de JUGADOR A</h2>
+            <img src="[Icono de Jugador]" alt="Foto" style="float: right; width: 100px;">
+            <p><strong>Nombre:</strong> Jugador A</p>
+            <p><strong>Club Actual:</strong> [Nombre del Club]</p>
+            <p><strong>Nacionalidad:</strong> Brasil (Información enlazada desde DBPedia)</p>
+            <p><strong>Valor:</strong> €45M</p>
+            
+            <h3>Estadísticas Clave (Del Grafo RDF)</h3>
+            <p><strong>Rating General:</strong> 82 | <strong>Potencial:</strong> 86</p>
+            
+            <h3>Visualización de Vínculos (FR3)</h3>
+            <p><strong>Compañeros con Vínculos Semánticos:</strong> 4 jugadores del mismo Club comparten la nacionalidad "Brasil".</p>
+            <p style="border: 1px solid #1a5a90; padding: 10px; text-align: center;">[Gráfico que muestra la relación semántica del Jugador A con otros Jugadores Brasileños del mismo Club]</p>
+        </div>
+    </div>
+
+</body>
+</html>

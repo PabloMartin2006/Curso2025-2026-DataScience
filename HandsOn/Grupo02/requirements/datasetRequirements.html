@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Revisión de Requisitos del Dataset — BiciMAD Disponibilidad</title>
+<style>
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.6}
+table{border-collapse:collapse;width:100%;margin-top:20px}
+th,td{border:1px solid #ccc;padding:8px}
+th{background:#f7f7f7}
+.ok{color:#007f3d;font-weight:bold}
+.partial{color:#b36b00;font-weight:bold}
+a{color:#0a58ca}
+</style>
+</head>
+<body>
+<h1>Hands-on 1 — Evaluación de requisitos del dataset</h1>
+
+<p><strong>Grupo:</strong> Group02</p>
+
+<h2>Dataset elegido</h2>
+<p><strong>Título:</strong> BiciMAD: disponibilidad de bicis en el servicio público de Madrid.</p>
+<p><strong>Fuente:</strong> <a href="https://datos.madrid.es/sites/v/index.jsp?vgnextoid=7547ff52e4a4f410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD">Portal de Datos Abiertos del Ayuntamiento de Madrid</a></p>
+<p><strong>Licencia:</strong> Se puede reutilizar (uso comercial y no comercial) citando la fuente, según las <a href="https://datos.madrid.es/egob/catalogo/aviso-legal">condiciones generales del portal</a>.</p>
+<p><strong>Nota:</strong> Los datos llegan hasta enero de 2022 y por ahora sirven como histórico.</p>
+
+<h2>Evaluación de requisitos</h2>
+<table>
+<thead>
+<tr><th>Requisito</th><th>Evaluación</th><th>Justificación</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>R1. Dominio Smart City</strong></td><td class="ok">Cumple</td><td>El dataset está dentro de movilidad/transporte, que es un área clave en smart cities.</td></tr>
+<tr><td><strong>R2. Datos en CSV</strong></td><td class="ok">Cumple</td><td>El portal da los datos en un fichero CSV con información de bicis por estación y fecha.</td></tr>
+<tr><td><strong>R3. Licencia abierta</strong></td><td class="ok">Cumple</td><td>Se pueden usar y publicar sin problema, siempre citando al Ayuntamiento.</td></tr>
+<tr><td><strong>R4. Enlazable con entidades reales</strong></td><td class="ok">Cumple</td><td>Tiene coordenadas y códigos de estaciones, lo que facilita relacionarlo con mapas de Madrid.</td></tr>
+<tr><td><strong>R5. Documentación (opcional)</strong></td><td class="ok">Cumple</td><td>Hay información extra en la ficha, con detalles del dataset y mapa de estaciones.</td></tr>
+<tr><td><strong>R6. Múltiples fuentes (opcional)</strong></td><td class="partial">Parcial</td><td>No viene de varias fuentes, pero se podría combinar con otros datasets del mismo portal (ej. barrios o uso del sistema).</td></tr>
+</tbody>
+</table>
+
+<h2>Conclusión</h2>
+<p>El dataset cumple todos los requisitos básicos (R1–R4) y además tiene documentación útil (R5). Nos parece una buena base para transformarlo a RDF y enlazarlo con otros datos abiertos de la ciudad.</p>
+
+</body>
+</html>

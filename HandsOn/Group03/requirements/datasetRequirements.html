@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Análisis de requisitos del dataset</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 920px; margin: 2rem auto; line-height: 1.6; }
+    h1, h2 { margin-top: 1.2rem; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #ddd; padding: .6rem; text-align: left; }
+    th { background: #f6f6f6; }
+    .ok { color: #0a7f2c; font-weight: 600; }
+    .parcial { color: #8a6d1f; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>Análisis de requisitos: centros_educativos.csv</h1>
+
+  <h2>Descripción del dataset</h2>
+  <p>
+    Dataset de centros educativos en la Comunidad de Madrid, con información como nombre, tipo (público/privado),
+    niveles (infantil, primaria, secundaria, FP), dirección, distrito/municipio y, cuando está disponible, coordenadas.
+    <br>Fuente: <a href="https://datos.comunidad.madrid/catalogos/#/dataset/centros_educativos/?view=info">datos.comunidad.madrid</a>.
+    <br>Licencia: <a href="https://creativecommons.org/licenses/by/4.0/legalcode.es">CC BY 4.0</a>.
+  </p>
+
+  <h2>Requisitos R1–R6</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Requisito</th>
+        <th>Estado</th>
+        <th>Justificación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>R1. Smart city domain</td>
+        <td class="ok">Cumplido</td>
+        <td>Educación y servicios públicos urbanos son dominios smart city; el dataset describe oferta de centros.</td>
+      </tr>
+      <tr>
+        <td>R2. CSV</td>
+        <td class="ok">Cumplido</td>
+        <td>El dataset se proporciona como archivo CSV (centros_educativos.csv) en el directorio csv/.</td>
+      </tr>
+      <tr>
+        <td>R3. Licencia abierta</td>
+        <td class="ok">Cumplido</td>
+        <td>La página fuente indica licencia abierta de reutilización. Esto puede comprobarse en el enlace superior o en el archivo README.md</td>
+      </tr>
+      <tr>
+        <td>R4. Enlace a entidades reales (ubicaciones)</td>
+        <td class="ok">Cumplido</td>
+        <td>El dataset incluye direcciones, distritos/municipios y (idealmente) coordenadas, fácilmente enlazables.</td>
+      </tr>
+      <tr>
+        <td>R5. Documentación (opcional)</td>
+        <td class="ok">Cumplido</td>
+        <td>La página del portal incluye un <a href="https://datos.comunidad.madrid/catalogos/#/dataset/centros_educativos/?view=view">mapa con localizaciones</a>, así como <a href="https://datos.comunidad.madrid/catalogos/#/dataset/centros_educativos/?view=dictionary">descripciones</a> explicativas de cada columna.</td>
+      </tr>
+      <tr>
+        <td>R6. Múltiples fuentes (opcional)</td>
+        <td class="parcial">Parcial</td>
+        <td>Se puede enriquecer con otras fuentes (p.ej., transporte, demografía del distrito, accesibilidad) en iteraciones posteriores.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

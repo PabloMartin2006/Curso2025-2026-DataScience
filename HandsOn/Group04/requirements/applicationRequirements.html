@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Requerimientos de la Aplicación</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background-color: #f5f5f5; }
+        h1, h2, h3 { color: #333; }
+        .mockup { border: 1px solid #aaa; background: white; padding: 15px; margin: 20px 0; width: 380px; }
+        .header { background: #0073e6; color: white; padding: 10px; text-align: center; }
+        .input, .button, .list-item { border: 1px solid #ccc; margin-top: 8px; padding: 8px; text-align: center; }
+        .button { background: #0073e6; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<h1>Requerimientos de la Aplicación</h1>
+
+<p>La aplicación permitirá visualizar y analizar datos de alquileres en diferentes barrios, basados en el archivo <strong>datasetbarrios.csv</strong>.</p>
+
+<hr>
+
+<h2>1. Descripción General</h2>
+<p>
+La aplicación mostrará estadísticas de alquiler por barrio (precios mínimos, medios y máximos, tamaño medio de las viviendas, etc.). 
+Permitirá comparar barrios, filtrar por año y trimestre, y visualizar mapas y gráficos.
+</p>
+
+<h2>2. Usuarios Objetivo</h2>
+<ul>
+    <li>Personas buscando vivienda.</li>
+    <li>Agentes inmobiliarios.</li>
+    <li>Estudiantes e investigadores urbanos.</li>
+    <li>Administraciones públicas.</li>
+</ul>
+
+<h2>3. Requerimientos de los Datos</h2>
+<ul>
+    <li><strong>R1.</strong> Los datos pertenecen al dominio de ciudades inteligentes (vivienda y desarrollo urbano).</li>
+    <li><strong>R2.</strong> Los datos están disponibles en formato CSV.</li>
+    <li><strong>R3.</strong> Los datos cuentan con licencia abierta para su publicación.</li>
+    <li><strong>R4.</strong> Los datos se pueden vincular con ubicaciones (barrios de la ciudad).</li>
+    <li><strong>R5.</strong> Existe documentación (opcional).</li>
+    <li><strong>R6.</strong> Pueden integrarse con otras fuentes (ej. datos de población por barrio).</li>
+</ul>
+
+<h2>4. Requerimientos Funcionales</h2>
+<ol>
+    <li>Mostrar listado de barrios con sus indicadores principales.</li>
+    <li>Permitir filtrar por año y trimestre.</li>
+    <li>Mostrar gráficos comparativos de precios y metros cuadrados.</li>
+    <li>Permitir buscar un barrio por nombre.</li>
+    <li>Mostrar detalles de cada barrio.</li>
+</ol>
+
+<h2>5. Requerimientos No Funcionales</h2>
+<ul>
+    <li>Interfaz web clara, accesible y responsiva.</li>
+    <li>Tiempo de respuesta adecuado incluso con grandes tablas.</li>
+</ul>
+
+<hr>
+
+<h2>6. Mock-ups</h2>
+
+<h3>Pantalla Principal</h3>
+<div class="mockup">
+    <div class="header">Alquiler por Barrios</div>
+    <div class="input">[ Selector de Año ]</div>
+    <div class="input">[ Selector de Trimestre ]</div>
+    <div class="input">[ Buscar barrio ]</div>
+    <div class="button">Buscar</div>
+    <div class="list-item">Barrio A — 480 €/m²</div>
+    <div class="list-item">Barrio B — 530 €/m²</div>
+</div>
+
+<h3>Detalles del Barrio</h3>
+<div class="mockup">
+    <div class="header">Benalúa</div>
+    <div class="list-item">Precio medio: 481 €</div>
+    <div class="list-item">Tamaño medio: 89 m²</div>
+    <div class="list-item">Viviendas ofertadas: 80</div>
+    <div class="button">Volver</div>
+</div>
+
+<hr>
+
+<p><strong>Fin del documento.</strong></p>
+
+</body>
+</html>

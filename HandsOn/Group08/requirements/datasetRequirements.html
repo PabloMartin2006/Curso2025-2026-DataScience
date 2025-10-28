@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos del Conjunto de Datos — BiciMAD (Ayto. Madrid)</title>
+</head>
+<body>
+  <h1>Requisitos del Conjunto de Datos</h1>
+
+  <h2>Dataset evaluado</h2>
+  <p><strong>Título:</strong> Estaciones BiciMAD (Ayuntamiento de Madrid)</p>
+  <p><strong>Ficha:</strong> <a href="<enlace_ficha_dataset>" target="_blank">Ver ficha en datos.madrid.es</a></p>
+  <p><strong>CSV usado:</strong> <a href="<enlace_csv_directo>" target="_blank">Descargar CSV</a> (también incluido en <code>/csv/bicimad_estaciones.csv</code>)</p>
+  <p><strong>Atribución requerida:</strong> Origen de los datos: Ayuntamiento de Madrid – Portal de Datos Abiertos (https://datos.madrid.es)</p>
+
+  <h2>Evaluación de Cumplimiento</h2>
+  <ul>
+    <li><strong>R1:</strong> <b>CUMPLE</b>. Dominio Smart City (movilidad urbana, sistema público de bicicletas).</li>
+    <li><strong>R2:</strong> <b>CUMPLE</b>. El conjunto ofrece distribución en <code>CSV</code>; se usa el fichero indicado.</li>
+    <li><strong>R3:</strong> <b>CUMPLE</b>. Licencia abierta del Ayuntamiento de Madrid: permite reutilización comercial y no comercial con cita de la fuente, conservación de metadatos y sin desnaturalizar la información. 
+      <a href="https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default" target="_blank">Condiciones</a>.
+    </li>
+    <li><strong>R4:</strong> <b>CUMPLE</b>. Datos vinculables a entidades reales: estaciones con coordenadas y dirección (enlazable a calles, barrios, distritos).</li>
+    <li><strong>R5 (opcional):</strong> <b>PARCIALMENTE</b>. La ficha incluye descripción y (en su caso) estructura de datos. No hay guía técnica extensa, pero es suficiente para el uso previsto (se añaden notas de preprocesado abajo).</li>
+    <li><strong>R6 (opcional):</strong> <b>NO</b> (de origen único). Puede cumplirse si se combina con otros datasets (p. ej., límites de barrios/distritos, calidad del aire, siniestralidad) en la app.</li>
+  </ul>
+
+  <h2>Notas técnicas y preprocesado</h2>
+  <ul>
+    <li><strong>Formato:</strong> CSV (verificado). Revisar separador (coma) y codificación (UTF-8).</li>
+    <li><strong>Geoespacial:</strong> Coordenadas lat/lon (EPSG:4326) → listas para mapa; posible cruce con capas de barrios/distritos.</li>
+    <li><strong>Limpieza:</strong> Normalización de nombres de columnas; control de nulos; validación de rangos de lat/lon.</li>
+    <li><strong>Metadatos:</strong> Registrar fecha de última actualización mostrada en la ficha y exponerla en la app.</li>
+  </ul>
+
+  <h2>Enlaces</h2>
+  <p><strong>Ficha:</strong> <a href="https://datos.madrid.es/sites/v/index.jsp?vgnextoid=e9b2a4059b4b7410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD" target="_blank">datos.madrid.es</a></p>
+  <p><strong>CSV:</strong> <a href="https://datos.madrid.es/egob/catalogo/208327-50004691-transporte-bicicletas-bicimad.csv" target="_blank"><enlace_csv_directo></a></p>
+</body>
+</html>

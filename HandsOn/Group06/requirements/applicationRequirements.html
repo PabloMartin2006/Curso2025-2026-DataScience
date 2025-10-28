@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Requisitos de la aplicación — Hands-on 1</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; margin:20px; max-width:900px; }
+    h1,h2,h3 { color:#0b5; }
+    .mockup { border:1px solid #ddd; border-radius:8px; padding:16px; margin:12px 0; box-shadow: 0 6px 18px rgba(0,0,0,0.03); }
+    .header-mock { display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom:1px solid #eee; }
+    .search-box { display:flex; gap:8px; margin-top:12px; }
+    .card { padding:12px; border-radius:8px; background:#fafafa; margin:8px 0; }
+    table { width:100%; border-collapse:collapse; margin-top:8px; }
+    th,td { text-align:left; padding:6px 8px; border-bottom:1px solid #eee; }
+    .pill { display:inline-block; padding:4px 8px; border-radius:14px; background:#eef; font-size:0.9rem; }
+    footer { margin-top:32px; font-size:0.9rem; color:#666; }
+  </style>
+</head>
+<body>
+  <h1>Requisitos de la aplicación</h1>
+  <p>Documento entregable: <strong>applicationRequirements.html</strong></p>
+
+  <h2>1. Resumen de la aplicación</h2>
+  <p>Nombre provisional: <strong>Mapa de Hospitales y Servicios</strong></p>
+  <p>Objetivo: Crear una aplicación web que permita a ciudadanos y personal municipal buscar y explorar hospitales y centros de salud dentro de la ciudad, ver información clave y obtener filtros y listados. Los estudiantes transformarán los CSV seleccionados a RDF, enlazándolos con entidades geográficas (Wikidata / GeoNames) y publicarán un endpoint SPARQL.</p>
+
+  <h2>2. Datasets usados</h2>
+  <div class="card">
+    <p><strong>Archivo CSV principal:</strong> <span class="pill">hospitales.csv</span></p>
+    <p><strong>Vista previa (primeras 5 filas):</strong></p>
+    <table class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>geo_point_2d;Geo Shape;Nombre;Financiaci;Tipo;Camas;Direccion;Fecha;Barrio;codbarrio;coddistbar;coddistrit;X;Y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nº 8;2021-06-30;BORBOTO;7;177;17;724316.9;4377277.3</td>
+    </tr>
+    <tr>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>28;2021-06-30;BETERO;4;114;11;728851.5;4372299.2</td>
+    </tr>
+    <tr>
+      <td>8;2021-06-30;RUSSAFA;1;021;2;726071.4;4371572.2</td>
+    </tr>
+    <tr>
+      <td>32;2021-06-30;LA CREU DEL GRAU;3;123;12;728403.8;4371328.8</td>
+    </tr>
+  </tbody>
+</table>
+    <p><strong>Cabecera / columnas detectadas:</strong></p>
+    <ul>
+      <li>geo_point_2d;Geo Shape;Nombre;Financiaci;Tipo;Camas;Direccion;Fecha;Barrio;codbarrio;coddistbar;coddistrit;X;Y</li>
+
+    </ul>
+    <p>Licencia: <em>El grupo debe comprobar y declarar la licencia original del CSV en el README. Se asume acceso abierto; si no lo es, reemplazar por otra fuente con licencia abierta.</em></p>
+  </div>
+
+  <h2>3. Requisitos funcionales</h2>
+  <ol>
+    <li><strong>RF1 — Búsqueda por texto</strong>: Buscar por nombre y dirección.</li>
+    <li><strong>RF2 — Filtro por atributos</strong>: Filtrar por tipo de centro, servicios, distrito, etc.</li>
+    <li><strong>RF3 — Mapa interactivo</strong>: Visualización en mapa con popups de detalle.</li>
+    <li><strong>RF4 — Listado y detalles</strong>: Listado paginado y página de detalle.</li>
+    <li><strong>RF5 — Exportar resultado</strong>: Exportar resultados a CSV.</li>
+    <li><strong>RF6 — Endpoint SPARQL</strong>: Consumir datos RDF publicados por el grupo vía SPARQL.</li>
+  </ol>
+
+  <h2>4. Requisitos no funcionales</h2>
+  <ul>
+    <li><strong>RNF1 — Accesibilidad básica</strong>.</li>
+    <li><strong>RNF2 — Rendimiento</strong>: manejar hasta ~10k registros con paginado.</li>
+    <li><strong>RNF3 — Portabilidad</strong>: Frontend desplegable en GitHub Pages.</li>
+    <li><strong>RNF4 — Seguridad</strong>: no almacenar credenciales en el repositorio.</li>
+  </ul>
+
+  <h2>5. Roles de usuario</h2>
+  <ul>
+    <li><strong>Ciudadano</strong></li>
+    <li><strong>Investigador / Estudiante</strong></li>
+    <li><strong>Administrador (opcional)</strong></li>
+  </ul>
+
+  <h2>6. Casos de uso principales</h2>
+  <ol>
+    <li>CU1: Buscar un hospital y ver su ubicación y teléfono.</li>
+    <li>CU2: Filtrar por servicio y exportar la lista.</li>
+    <li>CU3: Ejecutar consultas SPARQL sobre los datos enlazados.</li>
+  </ol>
+
+  <h2>7. Mock-ups de la interfaz</h2>
+  <div class="mockup" id="mock-home">
+    <div class="header-mock">
+      <strong>Mapa de Hospitales y Servicios</strong>
+      <nav><span class="pill">Inicio</span> <span class="pill">Datos</span> <span class="pill">Contacto</span></nav>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Buscar por nombre o dirección" style="flex:1;padding:8px;border-radius:6px;border:1px solid #ddd;">
+      <select style="padding:8px;border-radius:6px;border:1px solid #ddd;">
+        <option>Tipo: Todos</option><option>Hospital</option><option>Clínica</option>
+      </select>
+      <button style="padding:8px 12px;border-radius:6px;border:0;background:#0b5;color:white;">Buscar</button>
+    </div>
+    <div style="display:flex;gap:12px;margin-top:12px;">
+      <div style="flex:2;">
+        <div style="height:260px;border-radius:8px;border:1px solid #ccc;display:flex;align-items:center;justify-content:center;">
+          Mapa interactivo (vista previa)
+        </div>
+      </div>
+      <div style="flex:1;">
+        <div class="card"><strong>Resultados (12)</strong>
+          <ul>
+            <li>Hospital Central — Calle Falsa 123</li>
+            <li>Clínica Norte — Av. Siempre Viva 45</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mockup" id="mock-list">
+    <h3>Listado de hospitales (paginado)</h3>
+    <table>
+      <thead><tr><th>Nombre</th><th>Dirección</th><th>Tipo</th><th>Acciones</th></tr></thead>
+      <tbody>
+        <tr><td>Hospital Central</td><td>C. Falsa 123</td><td>Hospital</td><td><button>Ver</button> <button>Exportar</button></td></tr>
+        <tr><td>Clínica Norte</td><td>Av. Siempre Viva 45</td><td>Clínica</td><td><button>Ver</button> <button>Exportar</button></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mockup" id="mock-detail">
+    <h3>Ficha de detalle</h3>
+    <div class="card">
+      <strong>Hospital Central</strong>
+      <p><em>C. Falsa 123 — Barrio Centro</em></p>
+      <p>Tel: 912 345 678 — Web: <a href="#">www.hospitalcentral.example</a></p>
+      <p>Servicios: Urgencias, Pediatría, Cirugía</p>
+      <p>Coordenadas: 40.4168, -3.7038</p>
+      <div style="margin-top:8px;">
+        <button>Ver en mapa</button> <button>Enlaces relacionados (Wikidata)</button>
+      </div>
+    </div>
+  </div>
+
+  <h2>8. Mapeo entre requisitos y columnas del CSV</h2>
+  <table>
+    <thead><tr><th>RF</th><th>Columna(s) CSV</th><th>Uso</th></tr></thead>
+    <tbody>
+<tr><td>RF1 — Búsqueda por texto</td><td>geo_point_2d;Geo Shape;Nombre;Financiaci;Tipo;Camas;Direccion;Fecha;Barrio;codbarrio;coddistbar;coddistrit;X;Y</td><td>Búsqueda por nombre/dirección</td></tr>
+<tr><td>RF2 — Filtro por atributos</td><td>geo_point_2d;Geo Shape;Nombre;Financiaci;Tipo;Camas;Direccion;Fecha;Barrio;codbarrio;coddistbar;coddistrit;X;Y</td><td>Filtro por tipo/servicios</td></tr>
+<tr><td>RF3 — Mapa interactivo</td><td>latitud,longitud</td><td>Georreferenciación</td></tr>
+<tr><td>RF4 — Listado y detalles</td><td>geo_point_2d;Geo Shape;Nombre;Financiaci;Tipo;Camas;Direccion;Fecha;Barrio;codbarrio;coddistbar;coddistrit;X;Y</td><td>Mostrar listado y ficha</td></tr>
+<tr><td>RF5 — Exportar resultado</td><td>todas las columnas</td><td>Export CSV desde resultados</td></tr>
+<tr><td>RF6 — Endpoint SPARQL</td><td>URI generada + propiedades</td><td>Enlazar con entidades externas</td></tr>
+
+    </tbody>
+  </table>
+
+  <h2>9. Tecnologías sugeridas</h2>
+  <ul>
+    <li>Frontend: HTML5, CSS, JavaScript + Leaflet.</li>
+    <li>Transformación a RDF: OpenRefine / rdflib.</li>
+    <li>SPARQL endpoint: Apache Jena Fuseki.</li>
+    <li>Despliegue: GitHub Pages + contenedor para Fuseki.</li>
+  </ul>
+
+  <h2>10. Criterios de aceptación</h2>
+  <ul>
+    <li>Mostrar correctamente los puntos en el mapa usando coordenadas o geocodificando direcciones.</li>
+    <li>Datos RDF accesibles vía SPARQL con URIs enlazables.</li>
+    <li>Búsqueda y filtros mínimos implementados.</li>
+  </ul>
+
+  <footer>
+    <p>Generado a partir de <code>hospitales.csv</code>. Revisar la licencia en el README y completar metadatos antes de publicar.</p>
+  </footer>
+</body>
+</html>

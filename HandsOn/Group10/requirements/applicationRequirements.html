@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos de la aplicación: TrafficSmart Madrid</title>
+</head>
+<body>
+  <h1>Requisitos de la aplicación TrafficSmart Madrid</h1>
+
+  <p>
+    En este documento describimos qué hace la aplicación web TrafficSmart Madrid, quién la va a usar
+    y qué requisitos funcionales y no funcionales debe cumplir.
+    La idea central es ofrecer una visualización clara y reutilizable de los datos de aforos de tráfico
+    de las estaciones permanentes de Madrid, integrando además información temporal e incluso otras fuentes abiertas.
+  </p>
+
+  <h2>Descripción general de la aplicación</h2>
+
+  <p>
+    TrafficSmart Madrid es una aplicación web que permite explorar el tráfico registrado en las
+    estaciones permanentes de conteo del Ayuntamiento de Madrid. La aplicación mostrará las estaciones
+    en un mapa interactivo y permitirá consultar volúmenes de vehículos por periodo (por ejemplo, un mes concreto).
+    También permitirá comparar periodos distintos para detectar subidas o bajadas de tráfico.
+  </p>
+
+  <p>
+    La aplicación trabaja con datos publicados en abierto y con semántica (RDF / SPARQL), para que
+    la información pueda enlazarse con otros datasets urbanos y sea reutilizable.
+  </p>
+
+  <h2>Usuarios objetivo</h2>
+
+  <p>
+    La aplicación está pensada para varios tipos de perfil:
+  </p>
+
+  <ul>
+    <li>Ciudadanía interesada en movilidad y congestión en su zona.</li>
+    <li>Investigadores o estudiantes de transporte, urbanismo o sostenibilidad.</li>
+    <li>Personal técnico del ayuntamiento que analiza el comportamiento del tráfico en distintos distritos.</li>
+    <li>Desarrolladores que quieran reutilizar los datos abiertos y hacer sus propias visualizaciones o estudios.</li>
+  </ul>
+
+  <h2>Objetivos principales</h2>
+
+  <p>
+    Lo que se busca con TrafficSmart Madrid es:
+  </p>
+
+  <ul>
+    <li>Visualizar en un mapa todas las estaciones permanentes de medición de tráfico.</li>
+    <li>Consultar el volumen de tráfico por estación y por periodo temporal seleccionado.</li>
+    <li>Comparar dos periodos (por ejemplo, un mes frente al mes anterior) para ver si el tráfico sube o baja.</li>
+    <li>Filtrar estaciones por características como el distrito o el nivel de tráfico.</li>
+    <li>Ver la evolución histórica del tráfico en una estación concreta con gráficos de serie temporal.</li>
+  </ul>
+
+  <h2>Requisitos funcionales</h2>
+
+  <p>
+    A continuación se detallan las funcionalidades clave que debe ofrecer la aplicación:
+  </p>
+
+  <ul>
+    <li><strong>Mapa interactivo de estaciones:</strong> se muestran todas las estaciones permanentes geolocalizadas.</li>
+    <li><strong>Detalle de estación:</strong> al hacer clic en una estación, aparece la información básica (nombre, identificador, distrito, sentido/orientación) y métricas de volumen de tráfico, junto con un pequeño histórico en forma de gráfico.</li>
+    <li><strong>Selección de periodo:</strong> el usuario puede elegir un rango temporal (mes, año o rango personalizado) para ver los datos.</li>
+    <li><strong>Comparación de periodos:</strong> la aplicación permite seleccionar dos periodos distintos y compararlos visualmente.</li>
+    <li><strong>Filtros:</strong> se pueden filtrar estaciones por distrito, por nivel de tráfico o por categoría relevante.</li>
+    <li><strong>Búsqueda:</strong> se puede localizar una estación concreta por nombre o código.</li>
+    <li><strong>Exportación:</strong> los datos visibles en pantalla se pueden exportar en formatos abiertos (CSV, JSON).</li>
+    <li><strong>Integración con otros datos:</strong> se podrán cargar o mostrar capas externas (por ejemplo, condiciones meteorológicas o eventos) para contextualizar el tráfico.</li>
+  </ul>
+
+  <h2>Requisitos no funcionales</h2>
+
+  <p>
+    Además de las funciones “visibles”, la aplicación debe cumplir una serie de requisitos de calidad:
+  </p>
+
+  <ul>
+    <li><strong>Responsividad:</strong> debe funcionar tanto en escritorio como en móvil/tablet.</li>
+    <li><strong>Rendimiento:</strong> la carga de datos debe ser ágil incluso con varios periodos seleccionados.</li>
+    <li><strong>Actualización de datos:</strong> la aplicación debe poder trabajar con datos que se vayan actualizando periódicamente.</li>
+    <li><strong>Robustez:</strong> si hay estaciones sin datos en un periodo concreto, debe mostrarse claramente “Datos no disponibles” en lugar de fallar.</li>
+    <li><strong>Escalabilidad:</strong> la arquitectura debe permitir añadir nuevas estaciones, nuevos periodos históricos y nuevas capas temáticas sin rediseñar todo.</li>
+    <li><strong>Seguridad:</strong> proteger los endpoints de datos y evitar accesos no autorizados si hay endpoints internos.</li>
+  </ul>
+
+  <h2>Flujo de uso típico</h2>
+
+  <p>
+    El recorrido básico de una persona usuaria sería:
+  </p>
+
+  <ul>
+    <li>Abrir la aplicación y ver el mapa con todas las estaciones marcadas.</li>
+    <li>Elegir el periodo temporal que quiere analizar.</li>
+    <li>Ver cómo cambian los colores o indicadores de las estaciones según el volumen de tráfico.</li>
+    <li>Hacer clic en una estación concreta para ver más detalle y un gráfico histórico.</li>
+    <li>Aplicar filtros (por ejemplo, “solo Distrito Centro” o “estaciones con mucho tráfico”).</li>
+    <li>Comparar dos periodos para esa estación o para el conjunto.</li>
+    <li>Descargar los datos visibles si quiere analizarlos fuera.</li>
+  </ul>
+
+  <h2>Vistas principales de la aplicación</h2>
+
+  <p>
+    Aunque no son diseños finales, se plantean las siguientes pantallas base:
+  </p>
+
+  <ul>
+    <li><strong>Vista principal (mapa):</strong> mapa con todas las estaciones, coloreadas según el volumen de tráfico del periodo actual.</li>
+    <li><strong>Vista de detalle de estación:</strong> panel lateral o modal con información de la estación y su histórico de tráfico, incluyendo gráficos.</li>
+    <li><strong>Vista de comparación:</strong> una vista donde se pueden ver dos periodos en paralelo para detectar subidas/bajadas.</li>
+    <li><strong>Vista de filtros/búsqueda:</strong> interfaz para filtrar por distrito, por nivel de tráfico, o buscar una estación concreta.</li>
+    <li><strong>Vista de exportación:</strong> resumen de los datos actualmente seleccionados y botones para exportar en CSV o JSON.</li>
+    <li><strong>Vista de contexto externo:</strong> una vista opcional donde se integran capas adicionales como meteorología o eventos puntuales que puedan explicar variaciones de tráfico.</li>
+  </ul>
+
+  <h2>Modelo de datos conceptual (RDF)</h2>
+
+  <p>
+    La aplicación se apoya en un modelo semántico donde las entidades principales son:
+  </p>
+
+  <ul>
+    <li><strong>EstaciónPermanente</strong>: identificador de estación, nombre, latitud, longitud, distrito, sentido/orientación.</li>
+    <li><strong>RegistroTráfico</strong>: periodo temporal medido, volumen de vehículos, sentido y fecha de lectura. Cada registro está asociado a una estación permanente.</li>
+    <li><strong>Entidades externas relacionadas</strong>: por ejemplo, <em>Distrito</em>, <em>Fecha</em> y <em>CondicionesMeteorológicas</em>, que permiten enriquecer el análisis y cruzar los datos con otras fuentes abiertas.</li>
+  </ul>
+
+  <h2>Notas y extensiones futuras</h2>
+
+  <p>
+    Hay una serie de ideas que se plantean como futuras extensiones posibles:
+  </p>
+
+  <ul>
+    <li>Incluir una leyenda dinámica que explique los rangos de volumen de tráfico (por colores o categorías).</li>
+    <li>Permitir zoom y desplazamiento en el mapa con total libertad, tipo visor GIS ligero.</li>
+    <li>Mostrar alertas si una estación supera un cierto umbral histórico de tráfico.</li>
+    <li>Añadir capas extra, como condiciones meteorológicas, contaminación o eventos en la vía pública, para correlacionar intensidad de tráfico con contexto.</li>
+  </ul>
+
+  <p>
+    Todo esto busca que TrafficSmart Madrid no sea solo un mapa, sino una herramienta que ayude a entender patrones de movilidad urbana y a compararlos en el tiempo.
+  </p>
+
+</body>
+</html>

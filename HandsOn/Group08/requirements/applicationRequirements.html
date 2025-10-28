@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos de la Aplicación — BiciMAD</title>
+</head>
+<body>
+  <h1>Requisitos de la Aplicación</h1>
+
+  <h2>Descripción de la Aplicación</h2>
+  <p>
+    La aplicación mostrará la información de las estaciones de BiciMAD en un mapa interactivo.
+    Permitirá a los usuarios buscar estaciones, ver su ubicación exacta y acceder a información adicional
+    como el nombre, la dirección o el distrito. Su objetivo es facilitar la movilidad en Madrid
+    y mejorar la experiencia de los usuarios de BiciMAD.
+  </p>
+
+  <h2>Datasets utilizados</h2>
+  <ul>
+    <li>Estaciones de BiciMAD — Ayuntamiento de Madrid (formato CSV)</li>
+  </ul>
+
+  <h2>Requisitos funcionales</h2>
+  <ul>
+    <li><strong>RF1:</strong> Mostrar todas las estaciones en un mapa con sus coordenadas.</li>
+    <li><strong>RF2:</strong> Permitir buscar una estación por nombre o dirección.</li>
+    <li><strong>RF3:</strong> Filtrar las estaciones por distrito o barrio.</li>
+    <li><strong>RF4:</strong> Al hacer clic en una estación, mostrar detalles (ID, dirección, distrito).</li>
+  </ul>
+
+  <h2>Requisitos no funcionales</h2>
+  <ul>
+    <li><strong>RNF1:</strong> La interfaz debe ser simple, clara y usable desde ordenador o móvil.</li>
+    <li><strong>RNF3:</strong> Mostrar siempre la fuente y la fecha de actualización del dataset.</li>
+    <li><strong>RNF4:</strong> Respetar la licencia abierta del Ayuntamiento de Madrid, incluyendo la cita de origen.</li>
+  </ul>
+
+  <h2>Interfaz esperada (mockups)</h2>
+  <pre>
+  | [BiciMAD Finder]                             (Buscar) |
+    Filtros:  [Distrito ▼] [Barrio ▼]                       
+   ----------------------------------------------------------
+     ● Estación #101 - Calle Alcalá, 45                     
+     ● Estación #102 - Plaza España, 3                      
+     ● Estación #103 - C/ Princesa, 10                      
+   ----------------------------------------------------------
+    [MAPA con puntos ● representando estaciones]             
+  ----------------------------------------------------------
+  </pre>
+
+  <h2>Modelo de datos</h2>
+  <ul>
+    <li><code>id</code>: identificador único de la estación</li>
+    <li><code>nombre</code>: nombre de la estación</li>
+    <li><code>direccion</code>: dirección de la estación</li>
+    <li><code>distrito</code>: distrito donde se ubica</li>
+    <li><code>lat</code>, <code>lon</code>: coordenadas de la estación (EPSG:4326)</li>
+  </ul>
+
+  <h2>Conclusión</h2>
+  <p>
+    La aplicación se apoya en datos abiertos reales, fomenta la movilidad sostenible y cumple con las
+    licencias de reutilización del Ayuntamiento de Madrid. Permite al usuario conocer la distribución
+    de estaciones de BiciMAD y explorar opciones de transporte público ecológico.
+  </p>
+</body>
+</html>

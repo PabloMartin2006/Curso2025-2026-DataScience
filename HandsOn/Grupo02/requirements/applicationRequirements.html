@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>App BiciMAD — Lo que hará</title>
+<style>
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.6}
+h1,h2{line-height:1.2}
+.mock{border:2px dashed #bbb;padding:15px;border-radius:10px;margin-top:15px;background:#fafafa}
+.bar{height:30px;background:#e0e0e0;border-radius:8px;margin-bottom:8px}
+.btn{display:inline-block;padding:6px 12px;border:1px solid #ccc;border-radius:8px;background:#f5f5f5}
+</style>
+</head>
+<body>
+
+<h1>App BiciMAD — Lo que hará</h1>
+<p><strong>Grupo:</strong> Group02</p>
+
+<h2>Objetivo</h2>
+<p>El objetivo es hacer una aplicación web que muestre la <strong>disponibilidad de bicis</strong> por estación y que nos deje ver patrones o comparaciones entre barrios de Madrid.</p>
+
+<h2>Usuarios.</h2><p>Usuarios a los que va dirigido la aplicación:</p>
+<ul>
+<li>Personas que usan BiciMAD y quieren saber en qué estaciones suele haber más bicis.</li>
+<li>Gente del ayuntamiento que quiere detectar estaciones problemáticas.</li>
+<li>Cualquiera interesado en movilidad sostenible y datos abiertos.</li>
+</ul>
+
+<h2>La app tiene que hacer:</h2>
+<ol>
+<li>Mostrar un <strong>mapa</strong> con todas las estaciones y su disponibilidad media.</li>
+<li>Ver <strong>gráficas</strong> con cómo cambia la disponibilidad en el tiempo.</li>
+<li>Poder <strong>filtrar</strong> por fecha, hora, barrio o disponibilidad mínima.</li>
+<li>Tener un <strong>ranking</strong> con las estaciones con más y menos bicis.</li>
+<li>Dar opción de <strong>descargar</strong> los resultados en CSV/JSON.</li>
+</ol>
+
+<h2>¿Cómo debe ser la app?</h2>
+<ul>
+<li>La app debe funcionar bien en móviles y ordenadores (responsive).</li>
+<li>La interfaz tiene que ser fácil de usar e intuitiva.</li>
+<li>El proceso de tratamiento de datos debe poder repetirse fácilmente.</li>
+<li>No se usan datos personales, solo info de estaciones.</li>
+</ul>
+
+<h2>Modelo de datos.</h2>
+<p>Esquema de la información que usaremos en la aplicación. Nos ayuda a saber qué datos hay, cómo se organizan y cómo se relacionan entre sí.</p>
+<ul>
+<li><strong>Estación</strong> → tiene un id, un nombre, coordenadas, barrio y distrito.</li>
+<li><strong>Disponibilidad</strong> → enlaza a una estación, con fecha, hora y número de bicis disponibles.</li>
+<li><strong>Lugar</strong> → describe un barrio o distrito (id, nombre, tipo).</li>
+</ul>
+
+<h2>Mockup de interfaz</h2>
+<div class="mock">
+  <div class="bar"></div>
+  <div style="display:flex;gap:15px;">
+    <div style="flex:1">
+      <h3>Filtros</h3>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <button class="btn">Aplicar</button>
+    </div>
+    <div style="flex:2">
+      <h3>Mapa</h3>
+      <div style="height:300px;border:1px solid #ccc;border-radius:10px;background:linear-gradient(45deg,#f5f5f5,#fff)"></div>
+    </div>
+  </div>
+  <h3>Gráficas y ranking</h3>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div>
+
+</body>
+</html>

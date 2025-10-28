@@ -1,0 +1,15 @@
+.main_container{
+    width: 100%;
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+}
+.titulo{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista_requirements{
+    width: 95%;
+    text-align: justify;
+}

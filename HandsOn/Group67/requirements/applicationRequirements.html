@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<title>Requisitos de la Aplicación - Group67</title>
+
+<h1>Aplicación: Madrid Agua Cerca</h1>
+<p>App sencilla que muestra en un mapa las fuentes públicas de Madrid y permite buscarlas/filtrarlas.</p>
+
+<h2>Requisitos funcionales</h2>
+<ul>
+  <li>Ver las fuentes en un mapa.</li>
+  <li>Buscar por calle o distrito.</li>
+  <li>Filtrar por distrito o tipo (si existe el campo).</li>
+  <li>Ver detalle: nombre/dirección/coords/distrito.</li>
+</ul>
+
+<h2>Requisitos no funcionales</h2>
+<ul>
+  <li>Datos estáticos del CSV (carga rápida).</li>
+  <li>Mostrar licencia/atribución.</li>
+</ul>
+
+<h2>Mock-up</h2>
+<pre>
+[ Buscar: ________  (Distrito ▾) ]
+-----------------------------------
+ | Lista                        |  Mapa
+ | - Fuente A (Retiro)         |  [• • •]
+ | - Fuente B (Centro)         |  [  •  ]
+ | - Fuente C (Arganzuela)     |  [•   •]
+-----------------------------------
+</pre>
+
+<h2>Datos de entrada</h2>
+<p>Archivo: <code>csv/fuentes202510.csv</code> (campos básicos: nombre, dirección, distrito, latitud, longitud).</p>

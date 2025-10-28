@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos de los datasets</title>
+</head>
+<body>
+  <h1>Comprobación de requisitos R1 a R6</h1>
+
+  <p>
+    En este documento analizamos si los dos datasets que usamos en el proyecto cumplen los requisitos R1, R2, R3 y R4
+    (que son obligatorios), y también comentamos R5 y R6 (opcionales).
+    Los dos datasets vienen de fuentes abiertas del Ayuntamiento de Madrid, relacionadas con movilidad.
+  </p>
+
+  <h2>Dataset 1: Aforos de tráfico en la ciudad de Madrid permanentes</h2>
+
+  <p>
+    URL:
+    <a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default&vgnextoid=fabbf3e1de124610VgnVCM2000001f4a900aRCRD">Enlace al dataset</a>
+  </p>
+
+  <p>
+    Este dataset contiene los datos de aforo de tráfico medidos de forma permanente en la ciudad de Madrid.
+    El Ayuntamiento tiene alrededor de 60 estaciones fijas que cuentan cuántos vehículos pasan, y publica esos datos
+    desde enero de 2018 hasta la actualidad. Se actualiza mensualmente e incluye también la ubicación de las estaciones,
+    con sentido y orientación de la medida.
+  </p>
+
+  <ul>
+    <li><strong>R1 (Accesibilidad pública):</strong> Es un conjunto de datos público del portal de datos abiertos del Ayuntamiento de Madrid. Se puede acceder sin registrarse.</li>
+    <li><strong>R2 (Formato reutilizable):</strong> Se puede descargar en CSV (y otros formatos abiertos como XLS, JSON o incluso API según el recurso). Esto permite trabajar los datos directamente en análisis de movilidad.</li>
+    <li><strong>R3 (Metadatos):</strong> La ficha del dataset incluye descripción (qué mide), alcance temporal (desde 01/01/2018), el área responsable y las palabras clave “aforo, tráfico”. También explica que son estaciones permanentes de medición.</li>
+    <li><strong>R4 (Actualización):</strong> Indica frecuencia de actualización mensual y la fecha de la última actualización publicada en el portal.</li>
+    <li><strong>R5 (Licencia abierta):</strong> Igual que el otro dataset, este dataset forma parte del Portal de Datos Abiertos del Ayuntamiento de Madrid y tiene licencia de reutilización abierta, siempre citando la fuente oficial.</li>
+    <li><strong>R6 (Interoperabilidad):</strong> Da la localización de las estaciones permanentes de conteo de tráfico, lo que permite usarlo en análisis geográfico y relacionarlo con otros datos de movilidad urbana, como congestión, contaminación, o planes de movilidad.</li>
+  </ul>
+
+  <h2>Dataset 2: Puntos públicos de recarga de vehículos eléctricos</h2>
+
+  <p>
+    URL:
+    <a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4a29c987781b8410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD">Enlace al dataset</a>
+  </p>
+
+  <p>
+    Este dataset tiene la localización de los puntos de recarga públicos de coches eléctricos en Madrid
+    (dirección, coordenadas, etc). Es útil para movilidad eléctrica y para ver la infraestructura que hay en la ciudad.
+  </p>
+
+  <ul>
+    <li><strong>R1 (Accesibilidad pública):</strong> Se puede descargar directamente desde una URL pública, sin login.</li>
+    <li><strong>R2 (Formato reutilizable):</strong> Está en CSV, que es un formato abierto y fácil de procesar.</li>
+    <li><strong>R3 (Metadatos):</strong> El portal municipal explica qué son los datos, quién los publica y qué significa cada campo.</li>
+    <li><strong>R4 (Actualización):</strong> El dataset forma parte de la información oficial del Ayuntamiento y se mantiene actualizado cuando cambian los puntos de recarga.</li>
+    <li><strong>R5 (Licencia abierta):</strong> El Ayuntamiento de Madrid publica estos datos como datos abiertos, con licencia de reutilización pública, así que se pueden usar citando la fuente.</li>
+    <li><strong>R6 (Interoperabilidad):</strong> Al tener coordenadas y descripciones claras, se puede cruzar con otros datos de movilidad y mapa sin problema.</li>
+  </ul>
+
+
+  <h2>Conclusión</h2>
+
+  <p>
+    Los dos datasets cumplen los requisitos R1, R2, R3 y R4 porque:
+    (1) son públicos y abiertos,
+    (2) están en formatos reutilizables como CSV,
+    (3) incluyen metadatos claros,
+    (4) están actualizados por el Ayuntamiento.
+  </p>
+
+  <p>
+    También cumplen R5 y R6:
+    tienen licencia abierta de reutilización y se pueden combinar entre sí para estudiar movilidad urbana en Madrid
+    (por ejemplo, cruzar tráfico real medido con puntos de recarga de vehículo eléctrico para pensar políticas de movilidad sostenible).
+  </p>
+
+  <p>
+    Esto confirma que los datasets son válidos para el proyecto.
+  </p>
+</body>
+</html>

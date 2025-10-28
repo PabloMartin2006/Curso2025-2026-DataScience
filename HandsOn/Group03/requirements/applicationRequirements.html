@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Requisitos de la aplicación - Buscador de centros educativos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 920px; margin: 2rem auto; line-height: 1.6; }
+    h1, h2, h3 { margin-top: 1.2rem; }
+    .mock { border: 1px dashed #aaa; padding: 1rem; margin: .8rem 0; background: #fafafa; }
+    ul { padding-left: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Aplicación: Buscador y mapa de centros educativos (Madrid)</h1>
+
+  <h2>Objetivo</h2>
+  <p>
+    Ayudar a familias y estudiantes a localizar centros educativos adecuados en Madrid, filtrando por nivel, titularidad,
+    servicios y accesibilidad, con visualización geográfica y enlaces a información externa (Wikidata, transporte).
+  </p>
+
+  <h2>Usuarios y casos de uso</h2>
+  <ul>
+    <li><strong>Familias:</strong> Encontrar centros cercanos con nivel educativo específico y servicios (bilingüe, comedor, accesibilidad).</li>
+    <li><strong>Estudiantes:</strong> Buscar FP o bachilleratos por especialidad y conectar con transporte público cercano.</li>
+    <li><strong>Planificación:</strong> Visualizar densidad de centros por distrito y comparar con indicadores demográficos.</li>
+  </ul>
+
+  <h2>Requisitos</h2>
+  <ul>
+    <li><strong>1. Mapa interactivo:</strong> Mostrar centros como marcadores; al hacer clic, ver ficha del centro.</li>
+    <li><strong>2. Búsqueda y filtros:</strong> Por nombre, nivel, titularidad, distrito/municipio, servicios.</li>
+    <li><strong>3. Comparativas:</strong> Estadísticas por distrito (conteo, ratios por población si se añade demografía).</li>
+    <li><strong>4. Exportación:</strong> Descargar resultados filtrados en CSV/JSON.</li>
+    <li><strong>6. Usabilidad:</strong> UI clara y completa.</li>
+    <li><strong>7. Licencias:</strong> Mostrar atribución de datos y licencia en el pie.</li>
+  </ul>
+
+  <h2>Mock-ups de la interfaz</h2>
+
+  <h3>Pantalla principal (mapa + filtros)</h3>
+  <div class="mock">
+    [Header] Buscador de Centros<br>
+    [Barra de búsqueda: “Nombre del centro…”] <br>
+    [Filtros] Nivel (Infantil/Primaria/Secundaria/FP) · Titularidad (Público/Privado) · Distrito<br>
+    [Mapa] Marcadores y leyenda por tipo/propiedad. <br>
+    [Panel lateral] Lista de resultados (Nombre, distancia, tags). Paginación/scroll infinito.
+  </div>
+
+  <h3>Ficha de centro</h3>
+  <div class="mock">
+    [Título: Nombre del Centro] [Tag: Público/Privado] [Niveles] <br>
+    [Dirección + enlace a mapa externo] [Distrito] [Coordenadas] <br>
+    [Servicios: iconos / etiquetas] <br>
+    [Enlaces] Wikidata · Página oficial · Transporte cercano (metro/bus) <br>
+    [Botón] Guardar / Compartir / Exportar
+  </div>
+
+  <h3>Panel de análisis (Opcional)</h3>
+  <div class="mock">
+    [Gráfico de barras] Centros por distrito <br>
+    [Mapa de calor / coroplético] Densidad de centros por zona <br>
+    [Tabla] Lista resumida con filtros aplicados
+  </div>
+
+  <h2>Datos y enlazado (Opcional)</h2>
+  <ul>
+    <li><strong>Ubicaciones:</strong> Enlazar direcciones/coordenadas con distritos oficiales. </li>
+    <li><strong>Transporte:</strong> Añadir datasets de estaciones/paradas para distancia y accesibilidad.</li>
+    <li><strong>Demografía:</strong> Obtener población por distrito para indicadores comparativos.</li>
+  </ul>
+</body>
+</html>

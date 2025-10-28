@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dataset Requirements Evaluation – Air Quality in Madrid (2024)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #003366; }
+    ul { list-style: none; padding: 0; }
+    li { background: #fff; margin: 10px 0; padding: 15px; border-left: 5px solid #003366; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .ok { color: green; font-weight: bold; }
+    .partial { color: orange; font-weight: bold; }
+    .no { color: red; font-weight: bold; }
+    .footer { margin-top: 30px; font-size: 0.9em; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Dataset Requirements Evaluation</h1>
+  <h2>Dataset: Air Quality in Madrid (Daily Data – 2024)</h2>
+
+  <p>
+    This document reviews whether the selected dataset — <strong>“Calidad del aire. Datos diarios desde 2001 (2024)”</strong> —
+    meets the requirements stated at the first part of this Hands-On assignment.
+    The dataset was obtained from the <a href="https://datos.madrid.es/">Madrid City Council Open Data Portal</a> and
+    is available as a <strong>CSV</strong> file which contains daily air quality measurements collected across Madrid’s monitoring stations
+    and it is regularly updated every month or so.
+  </p>
+
+  <p>
+    The evaluation considers six requirements in total: four mandatory (R1–R4) and two optional (R5–R6).
+    Each one is discussed below, indicating whether it is satisfied, partially satisfied, or not satisfied.
+  </p>
+
+  <h2>Requirements Analysis</h2>
+  <ul>
+    <li>
+      <strong>R1. Belonging to a Smart City domain:</strong><br>
+      The dataset fits within the <strong>Environmental and Public Health</strong> domain,
+      which is an essential component of Smart Cities.
+      It includes indicators such as NO₂, PM₁₀, O₃, SO₂, and CO, all of which reflect Madrid’s environmental conditions.  
+      <span class="ok">✔ Satisfied</span>
+    </li>
+
+    <li>
+      <strong>R2. Data available in CSV format:</strong><br>
+      The dataset comes as a straightforward <strong>CSV</strong> file, no extra formatting or weird encodings, which made it easy to open and inspect.  
+      We used the file named <em>air_quality_madrid_2024.csv</em> stored in the <code>csv/</code> directory.  
+      This makes it ready for later conversion into RDF without much preprocessing.  
+      <span class="ok">✔ Satisfied</span>
+    </li>
+
+    <li>
+      <strong>R3. Open license:</strong><br>
+      The dataset uses <strong>Madrid City Council’s Open Data License</strong>, which basically means
+      anyone can reuse it as long as they give credit. This is perfect for this project as we can combine it with
+      other sources without worrying.
+      <span class="ok">✔ Satisfied</span>
+    </li>
+
+    <li>
+      <strong>R4. Linkability with real-world entities:</strong><br>
+      Each record includes station identifiers (<code>ESTACION</code> and <code>PUNTO_MUESTREO</code>)
+      that can be linked to actual locations using coordinates from complementary datasets such as
+      <em>Calidad del aire – Estaciones</em>.
+      This makes it possible to connect the data with external sources like Wikidata or OpenStreetMap.  
+      <span class="ok">✔ Satisfied</span>
+    </li>
+
+    <li>
+      <strong>R5. Dataset documentation (optional):</strong><br>
+      The official documentation — <em>“Interpreter of hourly, daily, and real-time air quality data files”</em> —
+      provides an explanation of the columns, pollutant codes (<code>MAGNITUD</code>), units of measurement, and validation flags.
+      This made it easier to understand the data and its context.  
+      <span class="ok">✔ Satisfied</span>
+    </li>
+
+    <li>
+      <strong>R6. Data from multiple sources (optional):</strong><br>
+      The dataset currently originates from a single municipal source.
+      However, it could be updated in the future by combining it with meteorological or traffic datasets to provide more context.  
+      <span class="partial">⚪ Partially satisfied</span>
+    </li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  
+  <p>
+    Overall, the <strong>Air Quality in Madrid (2024)</strong> dataset fulfills all four mandatory requirements (R1–R4)
+    and meets some of the optional ones (R5–R6).
+    It is therefore a good candidate for <strong>Linked Data transformation and integration</strong>,
+    mainly for projects focused on <strong>urban sustainability and environmental monitoring</strong>.
+  </p>
+
+  <p>
+    In future work, it would be better to incorporate additional data sources. For instance, weather or traffic data in order to better
+    understand the factors that influence air quality in Madrid.
+  </p>
+
+  <div class="footer">
+    <p><em>Prepared by Group 07 — Hands-On 1, Data Science (2025–2026)</em></p>
+  </div>
+</body>
+</html>

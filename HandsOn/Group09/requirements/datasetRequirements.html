@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Requisitos del Dataset: FC 26 Player Data</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1 { color: #2c3e50; }
+        .requirement { margin-bottom: 25px; padding: 15px; border-left: 5px solid #3498db; background-color: #ecf0f1; }
+        .status { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Evaluación de Requisitos del Dataset: FC 26 (FIFA 26) Player Data</h1>
+    <p><strong>Fuente:</strong> <a href="https://www.kaggle.com/datasets/rovnez/fc-26-fifa-26-player-data" target="_blank">Kaggle</a></p>
+
+    <h2>Requisitos Obligatorios (R1 - R4)</h2>
+
+    <div class="requirement">
+        <h3>R1. Dominio Ciudad Inteligente (Smart City)</h3>
+        <p><span class="status">CUMPLIMIENTO: No, pero permitido.</span></p>
+        <p><strong>Discusión:</strong> El dataset de datos de jugadores no pertenece al dominio tradicional de "Ciudad Inteligente". Se clasifica en "Deportes" y "Análisis de Datos". No obstante, el uso ha sido autorizado por el profesor, y enfocaremos el proyecto en el concepto de "inteligencia" aplicada a la toma de decisiones.</p>
+    </div>
+
+    <div class="requirement">
+        <h3>R2. Datos Disponibles como archivo CSV</h3>
+        <p><span class="status">CUMPLIMIENTO: Sí.</span></p>
+        <p><strong>Discusión:</strong> El dataset se encuentra disponible para su descarga en formato "CSV" desde la plataforma Kaggle, satisfaciendo completamente este requisito de formato.</p>
+    </div>
+
+    <div class="requirement">
+        <h3>R3. Licencia Abierta (para publicación)</h3>
+        <p><span class="status">CUMPLIMIENTO: Sí.</span></p>
+        <p><strong>Discusión:</strong> El dataset está publicado bajo la licencia "Creative Commons Attribution 4.0 International (CC BY 4.0)". Esta es una licencia abierta que permite a los usuarios compartir y adaptar el material, incluyendo su publicación como "Linked Data", siempre que se proporcione la atribución adecuada.</p>
+    </div>
+
+    <div class="requirement">
+        <h3>R4. Fácilmente Enlazable con Entidades del Mundo Real</h3>
+        <p><span class="status">CUMPLIMIENTO: Sí.</span></p>
+        <p><strong>Discusión:</strong> El dataset es altamente enlazable. Las entidades clave son "Jugadores", "Clubes" y "Nacionalidades", las cuales pueden vincularse fácilmente a recursos externos como DBPedia o Wikidata. Por ejemplo, los nombres de los clubes y países sirven como identificadores directos para los enlaces.</p>
+    </div>
+
+    <h2>Requisitos Opcionales (R5 - R6)</h2>
+
+    <div class="requirement">
+        <h3>R5. Existencia de Documentación</h3>
+        <p><span class="status">GRADO DE SATISFACCIÓN: Alto.</span></p>
+        <p><strong>Discusión:</strong> Kaggle proporciona una descripción detallada del Contexto y Contenido del dataset, incluyendo la fuente del "scraping" y una explicación de las columnas clave ("Overall Rating", "Potential", "Club", etc.). Esta documentación es suficiente para el proceso de transformación a RDF.</p>
+    </div>
+
+    <div class="requirement">
+        <h3>R6. Datos Provenientes de Múltiples Fuentes</h3>
+        <p><span class="status">GRADO DE SATISFACCIÓN: Parcial.</span></p>
+        <p><strong>Discusión:</strong> El archivo CSV es un único conjunto de datos. No obstante, nuestro proyecto se centrará en la tarea de "Linking" con datos externos (como datos geográficos de los clubes de GeoNames o datos biográficos de DBPedia), por lo que el grafo RDF final sí integrará múltiples fuentes de información, satisfaciendo el espíritu del requisito.</p>
+    </div>
+
+</body>
+</html>

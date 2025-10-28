@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Application Requirements – Madrid Air Quality Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #003366; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .footer { margin-top: 40px; font-size: 0.9em; color: #555; }
+    .mockup { background: #fff; border-left: 5px solid #003366; padding: 15px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+
+  <h1>Application Requirements</h1>
+  <h2>Application: Madrid Air Quality Dashboard</h2>
+
+  <p>
+    This document shows the main requirements and initial design draft of the application that will be developed based on the
+    <strong>Air Quality in Madrid (2024)</strong> dataset.
+    The goal of the application is to provide an accessible and visual way to explore air quality data across Madrid,
+    helping users understand pollution trends and identify the areas most affected by poor air quality.
+  </p>
+
+  <h2>1. Application Overview</h2>
+  <p>
+    The <strong>Madrid Air Quality Dashboard</strong> will be a web-based application that displays real-time and historical air quality
+    measurements collected from stations that monitor air quality around the city.
+    The system will allow users to visualize pollution data through maps, charts, and filters by pollutant, date, and location.
+  </p>
+
+  <h2>2. Functional Requirements</h2>
+  <ul>
+    <li><strong>FR1.</strong> Display air quality data by pollutant type (e.g., NO₂, PM₁₀, O₃, SO₂, CO).</li>
+    <li><strong>FR2.</strong> Filter data by station, date range, and pollutant.</li>
+    <li><strong>FR3.</strong> Provide an interactive city map showing the stations with color-coded pollution levels.</li>
+    <li><strong>FR4.</strong> Allow users to visualize historical trends using charts and graphs.</li>
+    <li><strong>FR5.</strong> Offer short explanations of each pollutant and its health effects if exposed for a long time.</li>
+    <li><strong>FR6.</strong> Export selected data as CSV or JSON for further analysis.</li>
+  </ul>
+
+  <h2>3. Non-Functional Requirements</h2>
+  <ul>
+    <li><strong>NFR1.</strong> The interface should be available on both desktop and mobile devices.</li>
+    <li><strong>NFR2.</strong> Data visualizations must update dynamically and load within seconds.</li>
+    <li><strong>NFR3.</strong> The system should be designed for easy integration with Linked Data sources (RDF).</li>
+    <li><strong>NFR4.</strong> The design should follow accessibility standards, to ensure understanding for all users.</li>
+    <li><strong>NFR5.</strong> All data used in the application must satisfy open data requirements.</li>
+  </ul>
+
+  <h2>4. User Interface Mock-ups</h2>
+
+  <div class="mockup">
+    <strong>Main Dashboard:</strong><br>
+    - A top navigation bar with filters for pollutant, date range, and station.<br>
+    - A map of Madrid in the center, with colored circles indicating air quality levels per station.<br>
+    - Being over a station will display current pollutant values and the air quality index.<br>
+  </div>
+
+  <div class="mockup">
+    <strong>Trends & Analysis View:</strong><br>
+    - Line chart showing pollutant concentration changes over time.<br>
+    - Bar graph comparing pollutants on a selected date.<br>
+    - “Download data” button below the graphs.<br>
+  </div>
+
+  <div class="mockup">
+    <strong>Information Panel:</strong><br>
+    - Short explanations of each pollutant (e.g., “NO₂ – produced mainly by traffic emissions”).<br>
+    - Simple recommendations, such as “Avoid outdoor exercise when PM₁₀ levels are high.”<br>
+  </div>
+
+  <h2>5. Expected Impact</h2>
+  <p>
+    The application objective is to raise awareness about air quality conditions in Madrid and help both
+    citizens and local authorities make better decisions. By visualizing pollution data in an intuitive way, it will make environmental
+    information more transparent and accessible to the public.
+  </p>
+
+  <div class="footer">
+    <p><em>Prepared by Group 07 — Hands-On 1, Data Science (2025–2026)</em></p>
+  </div>
+
+</body>
+</html>

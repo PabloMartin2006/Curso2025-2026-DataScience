@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Requirements - Grupo XX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #004c91;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            vertical-align: top;
+        }
+        th {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .cumple {
+            color: green;
+            font-weight: bold;
+        }
+        .nocumple {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Dataset Requirements - Grupo 04</h1>
+<h2>Dataset: Alquiler medio por barrios (Madrid)</h2>
+<p>Este documento analiza si el dataset seleccionado cumple los requisitos establecidos para la práctica Hands-on 1.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Requisito</th>
+            <th>Descripción</th>
+            <th>Análisis</th>
+            <th>Conclusión</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>R1</strong></td>
+            <td>Los datos pertenecen a un dominio de ciudad inteligente (Smart City).</td>
+            <td>El dataset recoge información sobre el precio del alquiler por metro cuadrado, número de viviendas, dormitorios y baños en diferentes barrios de Madrid. Este tipo de información pertenece al dominio de <strong>vivienda y planificación urbana</strong>, uno de los pilares de las Smart Cities.</td>
+            <td class="cumple">Cumple</td>
+        </tr>
+
+        <tr>
+            <td><strong>R2</strong></td>
+            <td>Los datos están disponibles en formato CSV.</td>
+            <td>El dataset se encuentra en formato CSV, con campos separados por punto y coma (;). Esto facilita su tratamiento y posterior conversión a RDF.</td>
+            <td class="cumple">Cumple</td>
+        </tr>
+
+        <tr>
+            <td><strong>R3</strong></td>
+            <td>Los datos tienen una licencia abierta que permite su publicación.</td>
+            <td>El dataset procede del portal de datos abiertos del Ayuntamiento de Madrid (<a href="https://datos.madrid.es" target="_blank">datos.madrid.es</a>), donde los conjuntos de datos se publican bajo licencia abierta que permite su reutilización y redistribución.</td>
+            <td class="cumple">Cumple</td>
+        </tr>
+
+        <tr>
+            <td><strong>R4</strong></td>
+            <td>Los datos pueden vincularse fácilmente con entidades reales (por ejemplo, ubicaciones).</td>
+            <td>El dataset incluye el nombre del barrio, que puede enlazarse con entidades geográficas existentes como Wikidata o DBpedia (por ejemplo, “Barrio de Salamanca”). Esto facilita la vinculación semántica.</td>
+            <td class="cumple">Cumple</td>
+        </tr>
+
+        <tr>
+            <td><strong>R5 (opcional)</strong></td>
+            <td>Existe documentación para los datos.</td>
+            <td>El portal de datos proporciona una descripción general y el significado de cada campo, pero no incluye un diccionario técnico detallado. Por tanto, la documentación es parcial.</td>
+            <td class="cumple">Parcialmente cumple</td>
+        </tr>
+
+        <tr>
+            <td><strong>R6 (opcional)</strong></td>
+            <td>Los datos pueden provenir de múltiples fuentes.</td>
+            <td>Actualmente, los datos provienen de una única fuente (Ayuntamiento de Madrid). Sin embargo, podrían combinarse con datos de otros portales (por ejemplo, INE o Ministerio de Vivienda) para ampliar el contexto.</td>
+            <td class="nocumple">No cumple (aunque sería posible ampliarlo)</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><strong>Conclusión:</strong> El dataset cumple todos los requisitos obligatorios (R1–R4) y parcialmente los opcionales (R5–R6), por lo que es adecuado para su uso en las siguientes fases del proyecto.</p>
+
+</body>
+</html>
