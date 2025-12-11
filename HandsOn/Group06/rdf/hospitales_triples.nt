@@ -1,0 +1,682 @@
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida Blasco Ibáñez, 14" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Río Tajo, 1" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Guillem de Castro" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benicalap" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Callosa de Ensarria, 12" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "191"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Mestalla" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "181"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital de Valencia al Mar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Privado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "171"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#isNamed> "Clinica Virgen del Consuelo" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Tormos" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Serrería, 73" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle ISABEL DE VILLENA, Nº2 PABELLÓN C" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Nou Moles" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Bilbao" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida Blasco Ibáñez, 17" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de la Flora, 7" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia L'Alger" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#hasBeds> "192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "152"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Malva-rosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "74"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#hasBeds> "300"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "113"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Malva-rosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valenca - Massarrojos" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital 9 de Octubre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "94"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Na Rovella" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Arquitecto Tolsa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Carpesa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Salvador Pau" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "L'amistat" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital Universitario y Politecnico La Fe" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Joaquin Benlloch, 27" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Carpesa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "62"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Pinedo" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle JUAN LLORENS, Nº 8" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#isNamed> "Consorcio Hospital General Universitario De Valencia" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Horno de Alcedo" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#hasBeds> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Vicente Puchol, 11" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "115"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Miguel Servet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "122"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Gil y Morte" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Privado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud San Isidro" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia- El Perellonet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Trinitat" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#hasBeds> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenidanguda de Fernando Abril Martorell, 106" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "105"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle VICENTE RIOS ENRIQUE, S/N" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Torrefiel" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#hasBeds> "160"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benifaraig" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Republica Argentina" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "151"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Privado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "92"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Fontsanta" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benimaclet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Castellar-l'oliveral" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "El Botanic" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "123"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle GUARDIA CIVIL, Nº 13" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle del Dr. Gil i Morte, 33" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Lliri" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de la Mare de Déu de la Fontsanta, 18" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#isNamed> "Fundacion Instituto Valenciano de Oncologia" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "161"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Auxiliar de La Punta" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida Gaspar Aguilar, 90" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud San Marcelino" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benicalap" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de l'Art Major de la Seda, 40" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Creu Del Grau" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida De Jesús Morante Borrás, 176" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Carretera de Artes" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "193"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Isabel de Villena, 2" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Fernando Morais de la Horra, 2" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle del Comte de Lumiares, 3" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Castellar - Oliveral" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "L'hort De Senabre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "197"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Arquitecto Tolsa, Nº 20" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#hasBeds> "587"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "196"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Serreria II" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Fonteta S.Lluis" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Campanar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Malva-Rosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Salvador Pau, 42" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Punta" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Ing. Aubán, 20" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Pau" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Marino Villamil, 8" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Camino D'alabau, 2" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Privado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Luis Oliag" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - El Palmar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benicalap" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#hasBeds> "302"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "L'illa Perduda" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de la República Argentina, 8" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "114"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital Clinico Universitario de Valencia" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Plaza Del Moreral, Nº 8" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle De L'alguer, 28" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Benimamet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "176"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Fontsanta" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#isNamed> "Clinica Fontana" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - La Torre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#isNamed> "Clinica Quiron de Valencia, S.A." .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "106"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Antoni" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#hasBeds> "539"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle De Sotavent, 1" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Pere de València, 28" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#isLocatedin> "San Llátzer s/n" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Ciutat Universitaria" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "141"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "L'illa Perduda" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "91"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital la Malva-Rosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida Valle de la Ballestera, 59" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "133"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Exposicio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Russafa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "71"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Tendetes" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Apóstol San Pedro, 23" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Cabanyal-canyamelar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Alicante, 31" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Ferrer Y Bigne, Nº 47" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Sant Valero, 8" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Isidre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "El Perellonet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "113"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Campanar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida Tres Cruces" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "131"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Privado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#hasBeds> "47"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Petxina" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Marco Merenciano" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Concertado" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "64"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Pau" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "152"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Ruzafa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Els Orriols" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Amics del Corpus" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Trinitat" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Lluís Oliag, 62" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Nou Moles" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Russafa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Benidoleig, 9" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Just Ramírez, s/n" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Auxilirar de Benigaraig" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Just Ramírez" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Félix del Río (Activista Veïnal), 26" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Profesor Beltrán Báguena, 11,8 y 19" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Bilbao, Nº 23" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Sant Pius X, 32" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle De Xile, 22" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "El Forn D'alcedo" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "El Palmar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "103"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital Universitario Dr. Peset" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Plaza de Segòvia, s/n" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "85"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "131"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "53"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Juan XXIII" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Benimaclet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital Arnau de Vilanova" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "161"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Natzaret" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Trafalgar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Albors" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Fuente San Luis" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Napoles y Sicilia" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Avenida de Juan XXIII, 39" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Vicent Brull, 71" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud C.S.I Juan Llorens" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Campanar" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Trafalgar, 32" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Pau" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Pinedo" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Raiosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Plaza Nápoles y Sicilia, 4" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "177"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Fontsanta" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Mont-olivet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Valencia - Ingeniero J. Benlloch" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "103"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de Campos Crespo, 94" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle AZUCENA, Nº 9" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Torre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#isNamed> "ClInica Casa de la Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Malilla" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Borboto" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Carretera D'artés, 6" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "113"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Favara" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "104"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Dr. Manuel Candela, 41" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle De Guillem De Castro, 149" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Borboto" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "161"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#hasBeds> "1000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Vicente Brull" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#hasBeds> "592"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> <https://knowledge.graphs/Group06/ontology#hasBeds> "156"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Arrancapins" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "55"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Albors" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Plaza Segovia" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle De Ricardo Micó, 3" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Benimamet" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Favara" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#hasBeds> "125"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "195"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "74"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "173"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> <https://knowledge.graphs/Group06/ontology#isType> "Centro de Salud" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Betero" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "112"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> <https://knowledge.graphs/Group06/ontology#isType> "Consultorio" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle de la Mare de Déu de la Fontsanta, 18" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Dels Redolins, 7" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Malva-rosa" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Serreria I" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle Del Retor Bau, 10" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "61"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> <https://knowledge.graphs/Group06/ontology#isLocatedin> "Calle San Clemente, 12" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "122"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Malilla" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud de Nazaret" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "82"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#isNamed> "Hospital pare Jofre" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "85"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> <https://knowledge.graphs/Group06/ontology#hasBeds> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> <https://knowledge.graphs/Group06/ontology#hasBeds> "79"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> <https://knowledge.graphs/Group06/ontology#wasCreatedin> "2021-06-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#isNamed> "Centro de Salud Salvador Allende" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "La Xerea" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Sant Marcel.Li" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> <https://knowledge.graphs/Group06/ontology#tieneCodigodistrito> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> <https://knowledge.graphs/Group06/ontology#isType> "Hospital" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Massarrojos" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#isFinancedby> "Publico" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.graphs/Group06/ontology#Hospital> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> <https://knowledge.graphs/Group06/ontology#isNamed> "Consultorio Local Valencia - Chile" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> <https://knowledge.graphs/Group06/ontology#tieneCodigodeBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> <https://knowledge.graphs/Group06/ontology#estaEnbarrio> "Torrefiel" .
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> <https://knowledge.graphs/Group06/ontology#tieneCoddistBarrio> "101"^^<http://www.w3.org/2001/XMLSchema#integer> .

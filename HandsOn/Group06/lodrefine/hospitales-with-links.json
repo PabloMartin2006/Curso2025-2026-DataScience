@@ -1,0 +1,459 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16917",
+        "name": "hospital"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Nombre to type Q16917"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q123705",
+        "name": "neighborhood"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Barrio to type Q123705"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q294422",
+        "name": "public building"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Tipo to type Q294422"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_barrio",
+    "columnInsertIndex": 9,
+    "description": "Crear la columna same_as_wikidata_barrio en el índice 9 basada en la columna Barrio usando la expresión grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Hospital",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Marcar para crear un único elemento nuevo para todas las celdas que contienen \"Hospital\" en la columna Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tipo",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipo",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna same_as_wikidata_tipo en el índice 5 basada en la columna Tipo usando la expresión grel:cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre",
+    "clearData": false,
+    "description": "Descartar juicios de cotejo para celdas en la columna Nombre"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre",
+    "clearData": false,
+    "description": "Descartar juicios de cotejo para celdas en la columna Nombre"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre",
+    "clearData": true,
+    "description": "Descartar juicios de cotejo y borrar datos de reconocimiento para celdas en la columna Nombre"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Hospital",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16917",
+      "name": "hospital",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento hospital (Q16917) para las celdas que contienen \"Hospital\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97642505",
+      "name": "Guardería y consultorio de puericultura",
+      "types": [
+        "Q294422"
+      ],
+      "score": 44
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Guardería y consultorio de puericultura (Q97642505) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Hospital",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16917",
+      "name": "hospital",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento hospital (Q16917) para las celdas que contienen \"Hospital\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Hospital",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16917",
+      "name": "hospital",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento hospital (Q16917) para las celdas que contienen \"Hospital\" en la columna Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tipo",
+    "expression": "grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipo1",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna same_as_wikidata_tipo1 en el índice 5 basada en la columna Tipo usando la expresión grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_tipo",
+    "description": "Eliminar columna same_as_wikidata_tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "Borboto",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8250836",
+      "name": "Borbotó",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Borbotó (Q8250836) para las celdas que contienen \"Borboto\" en la columna Barrio"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Barrio",
+    "expression": "grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_barrio1",
+    "columnInsertIndex": 10,
+    "description": "Crear la columna same_as_wikidata_barrio1 en el índice 10 basada en la columna Barrio usando la expresión grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_barrio",
+    "description": "Eliminar columna same_as_wikidata_barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "same_as_wikidata_barrio1",
+    "newColumnName": "same_as_wikidata_barrio",
+    "description": "Renombra la columna same_as_wikidata_barrio1 a same_as_wikidata_barrio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "same_as_wikidata_tipo1",
+    "newColumnName": "same_as_wikidata_tipo",
+    "description": "Renombra la columna same_as_wikidata_tipo1 a same_as_wikidata_tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97625010",
+      "name": "Consultorio ginecológico",
+      "types": [
+        "Q294422"
+      ],
+      "score": 63
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Consultorio ginecológico (Q97625010) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97642046",
+      "name": "Consultorio tipo 1a",
+      "types": [
+        "Q294422"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Consultorio tipo 1a (Q97642046) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tipo",
+    "expression": "grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipo1",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna same_as_wikidata_tipo1 en el índice 5 basada en la columna Tipo usando la expresión grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q123258009",
+      "name": "Consultorio",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Consultorio (Q123258009) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tipo",
+    "expression": "grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipo2",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna same_as_wikidata_tipo2 en el índice 5 basada en la columna Tipo usando la expresión grel:\"http://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q88962360",
+      "name": "doctor's office",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento doctor's office (Q88962360) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "matched",
+    "match": {
+      "id": "Q97642046",
+      "name": "Consultorio tipo 1a",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Consultorio tipo 1a (Q97642046) para las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo",
+    "similarValue": "Consultorio",
+    "judgment": "new",
+    "shareNewTopics": true,
+    "description": "Marcar para crear un único elemento nuevo para todas las celdas que contienen \"Consultorio\" en la columna Tipo"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tipo",
+    "expression": "grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_tipo3",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna same_as_wikidata_tipo3 en el índice 5 basada en la columna Tipo usando la expresión grel:\"https://www.wikidata.org/entity/\" +cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_tipo2",
+    "description": "Eliminar columna same_as_wikidata_tipo2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_tipo",
+    "description": "Eliminar columna same_as_wikidata_tipo"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_tipo1",
+    "description": "Eliminar columna same_as_wikidata_tipo1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "same_as_wikidata_tipo3",
+    "newColumnName": "same_as_wikidata_tipo",
+    "description": "Renombra la columna same_as_wikidata_tipo3 a same_as_wikidata_tipo"
+  }
+]

@@ -1,0 +1,1536 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "parameter",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "parameter2",
+    "columnInsertIndex": 3,
+    "description": "Crear la columna parameter2 en el índice 3 basada en la columna parameter usando la expresión grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q113145171",
+        "name": "type of chemical entity"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column parameter2 to type Q113145171"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "co",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2025",
+      "name": "carbon monoxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento carbon monoxide (Q2025) para las celdas que contienen \"co\" en la columna parameter2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "location_name_rdf",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "location_name2",
+    "columnInsertIndex": 2,
+    "description": "Crear la columna location_name2 en el índice 2 basada en la columna location_name_rdf usando la expresión grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q174782",
+        "name": "square"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q174782"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "PlazaDelCarmen",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080406",
+      "name": "Plaza del Carmen",
+      "types": [
+        "Q174782"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza del Carmen (Q6080406) para las celdas que contienen \"PlazaDelCarmen\" en la columna location_name2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name_rdf",
+          "expression": "value",
+          "columnName": "location_name_rdf",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminosPabloIglesias",
+                "l": "CuatroCaminosPabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "no2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento nitrogen dioxide (Q207895) para las celdas que contienen \"no2\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name_rdf",
+          "expression": "value",
+          "columnName": "location_name_rdf",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDeEspaña",
+                "l": "PlazaDeEspaña"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "PlazaDeEspaña",
+    "judgment": "matched",
+    "match": {
+      "id": "Q104414499",
+      "name": "Plaza de España",
+      "types": [
+        "Q174782",
+        "Q1497375"
+      ],
+      "score": 62
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de España (Q104414499) para las celdas que contienen \"PlazaDeEspaña\" en la columna location_name2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name_rdf",
+          "expression": "value",
+          "columnName": "location_name_rdf",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaCastillaCanal",
+                "l": "PlazaCastillaCanal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "no2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento nitrogen dioxide (Q207895) para las celdas que contienen \"no2\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "o3",
+                "l": "o3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "o3",
+    "judgment": "matched",
+    "match": {
+      "id": "Q36933",
+      "name": "ozone",
+      "types": [
+        "Q2512777",
+        "Q428653",
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento ozone (Q36933) para las celdas que contienen \"o3\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "pm10",
+                "l": "pm10"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "pm10",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1056863",
+      "name": "PM10",
+      "types": [
+        ""
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento PM10 (Q1056863) para las celdas que contienen \"pm10\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "pm25",
+                "l": "pm25"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "pm25",
+    "judgment": "matched",
+    "match": {
+      "id": "Q48035814",
+      "name": "PM 2.5",
+      "types": [
+        ""
+      ],
+      "score": 33.5
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento PM 2.5 (Q48035814) para las celdas que contienen \"pm25\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "so2",
+                "l": "so2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "so2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5282",
+      "name": "sulfur dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento sulfur dioxide (Q5282) para las celdas que contienen \"so2\" en la columna parameter2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "no2",
+                "l": "no2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "parameter2",
+    "similarValue": "no2",
+    "judgment": "matched",
+    "match": {
+      "id": "Q207895",
+      "name": "nitrogen dioxide",
+      "types": [
+        "Q113145171"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento nitrogen dioxide (Q207895) para las celdas que contienen \"no2\" en la columna parameter2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "so2",
+                "l": "so2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "unit2",
+    "columnInsertIndex": 7,
+    "description": "Crear la columna unit2 en el índice 7 basada en la columna unit usando la expresión grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "so2",
+                "l": "so2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unit2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q208469",
+        "name": "SI derived unit"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column unit2 to type Q208469"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "parameter2",
+          "expression": "value",
+          "columnName": "parameter2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "so2",
+                "l": "so2"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unit2",
+    "similarValue": "µg/m³",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106623548",
+      "name": "microgram per cubic metre",
+      "types": [
+        "Q10387685",
+        "Q208469"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento microgram per cubic metre (Q106623548) para las celdas que contienen \"µg/m³\" en la columna unit2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "unit-url",
+    "columnInsertIndex": 8,
+    "description": "Crear la columna unit-url en el índice 8 basada en la columna unit2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit2",
+    "description": "Eliminar columna unit2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit-url",
+    "description": "Eliminar columna unit-url"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unit",
+          "expression": "value",
+          "columnName": "unit",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "µg/m³",
+                "l": "µg/m³"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDelCarmen",
+                "l": "PlazaDelCarmen"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "unit2",
+    "columnInsertIndex": 7,
+    "description": "Crear la columna unit2 en el índice 7 basada en la columna unit usando la expresión grel:value"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unit",
+          "expression": "value",
+          "columnName": "unit",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "µg/m³",
+                "l": "µg/m³"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDelCarmen",
+                "l": "PlazaDelCarmen"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unit2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10387685",
+        "name": "unit of mass density"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column unit2 to type Q10387685"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unit",
+          "expression": "value",
+          "columnName": "unit",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "µg/m³",
+                "l": "µg/m³"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDelCarmen",
+                "l": "PlazaDelCarmen"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "unit2",
+    "similarValue": "µg/m³",
+    "judgment": "matched",
+    "match": {
+      "id": "Q106623548",
+      "name": "microgram per cubic metre",
+      "types": [
+        "Q10387685",
+        "Q208469"
+      ],
+      "score": 80
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento microgram per cubic metre (Q106623548) para las celdas que contienen \"µg/m³\" en la columna unit2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "unit",
+          "expression": "value",
+          "columnName": "unit",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "µg/m³",
+                "l": "µg/m³"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDelCarmen",
+                "l": "PlazaDelCarmen"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "unit-url",
+    "columnInsertIndex": 8,
+    "description": "Crear la columna unit-url en el índice 8 basada en la columna unit2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "parameter2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "parameter-url",
+    "columnInsertIndex": 5,
+    "description": "Crear la columna parameter-url en el índice 5 basada en la columna parameter2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name_rdf",
+          "expression": "value",
+          "columnName": "location_name_rdf",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminosPabloIglesias",
+                "l": "CuatroCaminosPabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "location_name2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "location_url",
+    "columnInsertIndex": 3,
+    "description": "Crear la columna location_url en el índice 3 basada en la columna location_name2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_url",
+    "description": "Eliminar columna location_url"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q35120",
+        "name": "entity"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q35120"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "PlazaDelCarmen",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080406",
+      "name": "Plaza del Carmen",
+      "types": [
+        "Q174782"
+      ],
+      "score": 46
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza del Carmen (Q6080406) para las celdas que contienen \"PlazaDelCarmen\" en la columna location_name2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaDeEspaña",
+                "l": "PlazaDeEspaña"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "PlazaDeEspaña",
+    "judgment": "matched",
+    "match": {
+      "id": "Q104414499",
+      "name": "Plaza de España",
+      "types": [
+        "Q174782",
+        "Q1497375"
+      ],
+      "score": 62
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de España (Q104414499) para las celdas que contienen \"PlazaDeEspaña\" en la columna location_name2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "location_name2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "location_url",
+    "columnInsertIndex": 3,
+    "description": "Crear la columna location_url en el índice 3 basada en la columna location_name2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_url",
+    "description": "Eliminar columna location_url"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminosPabloIglesias",
+                "l": "CuatroCaminosPabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CuatroCaminosPabloIglesias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PabloIglesias"
+      }
+    ],
+    "description": "Editar celdas en masa en columna location_name2"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PabloIglesias",
+                "l": "PabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q174782",
+        "name": "square"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q174782"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PabloIglesias",
+                "l": "PabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q35120",
+        "name": "entity"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q35120"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PabloIglesias",
+                "l": "PabloIglesias"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PabloIglesias"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CuatroCaminos"
+      }
+    ],
+    "description": "Editar celdas en masa en columna location_name2"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminos",
+                "l": "CuatroCaminos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q174782",
+        "name": "square"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q174782"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminos",
+                "l": "CuatroCaminos"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CuatroCaminos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CuatroCaminosNeighborhood"
+      }
+    ],
+    "description": "Editar celdas en masa en columna location_name2"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminosNeighborhood",
+                "l": "CuatroCaminosNeighborhood"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q10267336",
+        "name": "neighborhood of Madrid"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q10267336"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "CuatroCaminosNeighborhood",
+                "l": "CuatroCaminosNeighborhood"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "CuatroCaminosNeighborhood",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5824684",
+      "name": "Cuatro Caminos",
+      "types": [
+        "Q10267336"
+      ],
+      "score": 53
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Cuatro Caminos (Q5824684) para las celdas que contienen \"CuatroCaminosNeighborhood\" en la columna location_name2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaCastillaCanal",
+                "l": "PlazaCastillaCanal"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PlazaCastillaCanal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PlazaCastilla"
+      }
+    ],
+    "description": "Editar celdas en masa en columna location_name2"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaCastilla",
+                "l": "PlazaCastilla"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q174782",
+        "name": "square"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column location_name2 to type Q174782"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaCastilla",
+                "l": "PlazaCastilla"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "location_name2",
+    "similarValue": "PlazaCastilla",
+    "judgment": "matched",
+    "match": {
+      "id": "Q786291",
+      "name": "plaza de Castilla",
+      "types": [
+        "Q174782"
+      ],
+      "score": 59
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento plaza de Castilla (Q786291) para las celdas que contienen \"PlazaCastilla\" en la columna location_name2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "location_name2",
+          "expression": "value",
+          "columnName": "location_name2",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "PlazaCastilla",
+                "l": "PlazaCastilla"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "location_name2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "location_url",
+    "columnInsertIndex": 3,
+    "description": "Crear la columna location_url en el índice 3 basada en la columna location_name2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_url",
+    "description": "Eliminar columna location_url"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "location_name2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "location_url",
+    "columnInsertIndex": 3,
+    "description": "Crear la columna location_url en el índice 3 basada en la columna location_name2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "parameter-url",
+    "description": "Eliminar columna parameter-url"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "parameter2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "parameter_url",
+    "columnInsertIndex": 6,
+    "description": "Crear la columna parameter_url en el índice 6 basada en la columna parameter2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit-url",
+    "description": "Eliminar columna unit-url"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit2",
+    "expression": "if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)",
+    "onError": "set-to-blank",
+    "newColumnName": "unit_url",
+    "columnInsertIndex": 10,
+    "description": "Crear la columna unit_url en el índice 10 basada en la columna unit2 usando la expresión if(cell.recon.match!=null,\"https://www.wikidata.org/wiki/{{id}}\".replace(\"{{id}}\",escape(cell.recon.match.id,\"url\")),null)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit2",
+    "description": "Eliminar columna unit2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit_url",
+    "description": "Eliminar columna unit_url"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "unit",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "unit2",
+    "columnInsertIndex": 9,
+    "description": "Crear la columna unit2 en el índice 9 basada en la columna unit usando la expresión grel:value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "unit2",
+    "description": "Eliminar columna unit2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "parameter2",
+    "description": "Eliminar columna parameter2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_name2",
+    "description": "Eliminar columna location_name2"
+  }
+]

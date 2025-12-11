@@ -1,0 +1,46 @@
+PREFIX ns: <https://knowledge.graphs/Group06/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# query para btener todos los hospitales con su nombre y barrio
+SELECT ?hospital ?name ?barrio
+WHERE {
+    ?hospital a ns:Hospital .
+    ?hospital ns:isNamed ?name .
+    ?hospital ns:estaEnbarrio ?barrio .
+}
+
+# query para obtener hospitales con más de 100 camas
+SELECT ?name ?beds
+WHERE {
+    ?hospital a ns:Hospital .
+    ?hospital ns:isNamed ?name .
+    ?hospital ns:hasBeds ?beds .
+    FILTER(?beds > 100)
+}
+
+# query para obtener solo los centros de Salud
+SELECT ?name
+WHERE {
+    ?hospital a ns:Hospital .
+    ?hospital ns:isNamed ?name .
+    ?hospital ns:isType "Centro de Salud" .
+}
+
+# query para contar cuántos hospitales hay por barrio 
+SELECT ?barrio (COUNT(?hospital) as ?count)
+WHERE {
+    ?hospital a ns:Hospital .
+    ?hospital ns:estaEnbarrio ?barrio .
+}
+GROUP BY ?barrio
+ORDER BY DESC(?count)
+
+# query para obtener los enlaces a Wikidata (owl:sameAs)
+SELECT ?name ?wikidata_link
+WHERE {
+    ?hospital a ns:Hospital .
+    ?hospital ns:isNamed ?name .
+    ?hospital owl:sameAs ?wikidata_link .
+}

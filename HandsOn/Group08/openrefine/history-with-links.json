@@ -1,0 +1,1848 @@
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Name",
+          "expression": "value",
+          "columnName": "Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "1 - Metro Sol",
+                "l": "1 - Metro Sol"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "1 - Metro Sol",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1149052",
+      "name": "Calle Mayor",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle Mayor (Q1149052) para las celdas que contienen \"1 - Metro Sol\" en la columna Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "4 - Malasaña",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27044275",
+      "name": "Calle de Manuela Malasaña, Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de Manuela Malasaña, Madrid (Q27044275) para las celdas que contienen \"4 - Malasaña\" en la columna Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Name",
+          "expression": "value",
+          "columnName": "Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "105 - Serrano, 46",
+                "l": "105 - Serrano, 46"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "105 - Serrano, 46",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2481179",
+      "name": "Serrano",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Serrano (Q2481179) para las celdas que contienen \"105 - Serrano, 46\" en la columna Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Name",
+          "expression": "value",
+          "columnName": "Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "103 - Ortega y Gasset - Serrano",
+                "l": "103 - Ortega y Gasset - Serrano"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "103 - Ortega y Gasset - Serrano",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16540548",
+      "name": "Calle de José Ortega y Gasset, Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de José Ortega y Gasset, Madrid (Q16540548) para las celdas que contienen \"103 - Ortega y Gasset - Serrano\" en la columna Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Name",
+          "expression": "value",
+          "columnName": "Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "100 - Wizink Center",
+                "l": "100 - Wizink Center"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "100 - Wizink Center",
+    "judgment": "matched",
+    "match": {
+      "id": "Q539019",
+      "name": "Community of Madrid Sports Centre",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Community of Madrid Sports Centre (Q539019) para las celdas que contienen \"100 - Wizink Center\" en la columna Name"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Name",
+          "expression": "value",
+          "columnName": "Name",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "161 - Intercambiador de Príncipe Pío A",
+                "l": "161 - Intercambiador de Príncipe Pío A"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "similarValue": "161 - Intercambiador de Príncipe Pío A",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2527066",
+      "name": "Príncipe Pío",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Príncipe Pío (Q2527066) para las celdas que contienen \"161 - Intercambiador de Príncipe Pío A\" en la columna Name"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Name",
+    "expression": "grel:if(isNotNull(cell.recon.match.id),\n  \"https://www.wikidata.org/entity/\" + cell.recon.match.id,\n  \"\"\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_station",
+    "columnInsertIndex": 2,
+    "description": "Crear la columna same_as_wikidata_station en el índice 2 basada en la columna Name usando la expresión grel:if(isNotNull(cell.recon.match.id),\n  \"https://www.wikidata.org/entity/\" + cell.recon.match.id,\n  \"\"\n)"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Name",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q17402113",
+        "name": "BiciMAD"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [
+        {
+          "column": "Address",
+          "propertyName": "located on street",
+          "propertyID": "P669"
+        },
+        {
+          "column": "Longitud",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        },
+        {
+          "column": "Latitud",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Name to type Q17402113"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Address",
+    "expression": "grel:value.split(\",\")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "AddressForReconciling",
+    "columnInsertIndex": 4,
+    "description": "Crear la columna AddressForReconciling en el índice 4 basada en la columna Address usando la expresión grel:value.split(\",\")[0]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "same_as_wikidata_station",
+    "description": "Eliminar columna same_as_wikidata_station"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q79007",
+        "name": "street"
+      },
+      "autoMatch": true,
+      "batchSize": 10,
+      "columnDetails": [
+        {
+          "column": "Longitud",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        },
+        {
+          "column": "Latitud",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column AddressForReconciling to type Q79007"
+  },
+  {
+    "op": "core/recon-match-best-candidates",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "description": "Emparejar cada celda con su mejor candidato de cotejo en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de San Miguel",
+    "judgment": "matched",
+    "match": {
+      "id": "Q52051752",
+      "name": "Plaza de San Miguel, Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de San Miguel, Madrid (Q52051752) para las celdas que contienen \"Plaza de San Miguel\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle San Andrés",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle San Andrés\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle San Bernardo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740864",
+      "name": "San Bernardo street",
+      "types": [
+        "Q79007"
+      ],
+      "score": 51.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento San Bernardo street (Q5740864) para las celdas que contienen \"Calle San Bernardo\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de Santo Domingo",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6080106",
+      "name": "Plaza de Santo Domingo",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de Santo Domingo (Q6080106) para las celdas que contienen \"Plaza de Santo Domingo\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Jesús",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27051182",
+      "name": "Calle de Jesús, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 48.888888888888886
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de Jesús, Madrid (Q27051182) para las celdas que contienen \"Calle Jesús\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Carretas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5740952",
+      "name": "calle de Carretas",
+      "types": [
+        "Q79007"
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento calle de Carretas (Q5740952) para las celdas que contienen \"Calle Carretas\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de San Francisco",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Plaza de San Francisco\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de Santa Ana",
+    "judgment": "matched",
+    "match": {
+      "id": "Q740210",
+      "name": "Plaza de Santa Ana",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de Santa Ana (Q740210) para las celdas que contienen \"Plaza de Santa Ana\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de la Independencia",
+    "judgment": "matched",
+    "match": {
+      "id": "Q4967671",
+      "name": "Plaza de la Independencia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Plaza de la Independencia (Q4967671) para las celdas que contienen \"Plaza de la Independencia\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Doce de Octubre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q118724987",
+      "name": "calle del Doce de Octubre",
+      "types": [
+        "Q79007"
+      ],
+      "score": 50.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento calle del Doce de Octubre (Q118724987) para las celdas que contienen \"Calle Doce de Octubre\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Avenida del Mediterráneo",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Avenida del Mediterráneo\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Claudio Moyano",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Claudio Moyano\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Alcántara",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28070781",
+      "name": "Calle de Alcántara, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 55.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de Alcántara, Madrid (Q28070781) para las celdas que contienen \"Calle Alcántara\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Arcipreste de Hita",
+    "judgment": "matched",
+    "match": {
+      "id": "Q27243768",
+      "name": "Calle del Arcipreste de Hita, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 51.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle del Arcipreste de Hita, Madrid (Q27243768) para las celdas que contienen \"Calle Arcipreste de Hita\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de España",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1326261",
+      "name": "plaza de España",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento plaza de España (Q1326261) para las celdas que contienen \"Plaza de España\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Palos de la Frontera",
+    "judgment": "matched",
+    "match": {
+      "id": "Q118669853",
+      "name": "calle de Palos de la Frontera",
+      "types": [
+        "Q79007"
+      ],
+      "score": 52.77777777777778
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento calle de Palos de la Frontera (Q118669853) para las celdas que contienen \"Calle Palos de la Frontera\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Dulcinea",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Dulcinea\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Colombia",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Colombia\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Bolívar",
+    "judgment": "matched",
+    "match": {
+      "id": "Q105775876",
+      "name": "Calle de Bolívar",
+      "types": [
+        "Q79007"
+      ],
+      "score": 50
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de Bolívar (Q105775876) para las celdas que contienen \"Calle Bolívar\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Alcala-Ventas",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Alcala-Ventas\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Navarra",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28524780",
+      "name": "Calle de Blanca de Navarra, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 40
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de Blanca de Navarra, Madrid (Q28524780) para las celdas que contienen \"Calle Navarra\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza de Castilla",
+    "judgment": "matched",
+    "match": {
+      "id": "Q786291",
+      "name": "plaza de Castilla",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento plaza de Castilla (Q786291) para las celdas que contienen \"Plaza de Castilla\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Plaza Puerta del Ángel",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Plaza Puerta del Ángel\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Camilo José Cela",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Camilo José Cela\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Avenida De Bruselas",
+    "judgment": "matched",
+    "match": {
+      "id": "Q118710890",
+      "name": "avenida de Bruselas",
+      "types": [
+        "Q7543083"
+      ],
+      "score": 55.55555555555556
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento avenida de Bruselas (Q118710890) para las celdas que contienen \"Avenida De Bruselas\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Ciudad Universitaria",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3319235",
+      "name": "Ciudad Universitaria",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Ciudad Universitaria (Q3319235) para las celdas que contienen \"Ciudad Universitaria\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Facultad de Biología",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Facultad de Biología\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Campuzano",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Campuzano\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Puerto de Arlabán",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Puerto de Arlabán\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Arzobispo Morcillo",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Arzobispo Morcillo\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle de las Higueras",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle de las Higueras\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Avenida Córdoba",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Avenida Córdoba\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Avenida Del Santo Ángel de la Guarda",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Avenida Del Santo Ángel de la Guarda\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle de la Vía",
+    "judgment": "matched",
+    "match": {
+      "id": "Q56121122",
+      "name": "Calle de la Vía Límite, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 45
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Calle de la Vía Límite, Madrid (Q56121122) para las celdas que contienen \"Calle de la Vía\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Avenida Moratalaz",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Avenida Moratalaz\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Muller",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Muller\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Gran Avenida",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Gran Avenida\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Torremolinos",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Torremolinos\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle María Auxiliadora",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle María Auxiliadora\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Rioja",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Rioja\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle de las Delicias",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6065662",
+      "name": "Paseo de las Delicias, Madrid",
+      "types": [
+        "Q79007"
+      ],
+      "score": 41.11111111111111
+    },
+    "shareNewTopics": false,
+    "description": "Emparejar el elemento Paseo de las Delicias, Madrid (Q6065662) para las celdas que contienen \"Calle de las Delicias\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Alhambra",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Alhambra\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AddressForReconciling",
+    "similarValue": "Calle Duquesa de Parcent",
+    "description": "Borrar los datos de cotejo de las celdas que contienen \"Calle Duquesa de Parcent\" en la columna AddressForReconciling"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "AddressForReconciling: juicio",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "AddressForReconciling",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "AddressForReconciling",
+    "expression": "grel:if(\n  isNotNull(cell.recon),\n  if(\n    isNotNull(cell.recon.match.id),\n    \"https://www.wikidata.org/entity/\" + cell.recon.match.id,\n    \"\"\n  ),\n  \"\"\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "same_as_wikidata_address",
+    "columnInsertIndex": 4,
+    "description": "Crear la columna same_as_wikidata_address en el índice 4 basada en la columna AddressForReconciling usando la expresión grel:if(\n  isNotNull(cell.recon),\n  if(\n    isNotNull(cell.recon.match.id),\n    \"https://www.wikidata.org/entity/\" + cell.recon.match.id,\n    \"\"\n  ),\n  \"\"\n)"
+  }
+]

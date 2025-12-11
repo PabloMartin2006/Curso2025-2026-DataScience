@@ -108,3 +108,27 @@ WHERE {
   FILTER(?valor > 75)
 }
 ORDER BY DESC(?valor)
+
+
+############################################################
+# 8) Verificar los enlaces owl:sameAs de las ubicaciones
+############################################################
+SELECT ?ubicacion ?label ?externo
+WHERE {
+  ?ubicacion a aq:Ubicacion ;
+             rdfs:label ?label ;
+             owl:sameAs ?externo .
+}
+ORDER BY ?label
+
+
+############################################################
+# 9) Verificar los enlaces owl:sameAs de los contaminantes
+############################################################
+SELECT ?contaminante ?label ?externo
+WHERE {
+  ?contaminante a aq:Contaminante ;
+             rdfs:label ?label ;
+             owl:sameAs ?externo .
+}
+ORDER BY ?label

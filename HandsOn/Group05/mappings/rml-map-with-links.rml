@@ -1,0 +1,145 @@
+@prefix rr:      <http://www.w3.org/ns/r2rml#> .
+@prefix rml:     <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:      <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix aq:      <http://linkeddata.grup05.es/CalidadAireMadrid/ontology/AirQualityOntology#> .
+@prefix res:     <http://linkeddata.grup05.es/CalidadAireMadrid/resource/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+
+
+################################
+# TriplesMap1: Medición
+################################
+<#triplesmap1> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "CalidadAireReconciliadoV3-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ] ;
+  rr:subjectMap [
+    rr:template "http://linkeddata.grup05.es/CalidadAireMadrid/resource/Medicion/{id}" ;
+    rr:class aq:Medicion
+  ] ;
+
+  # ID de la medición
+  rr:predicateObjectMap [
+    rr:predicate aq:tieneId ;
+    rr:objectMap [ rml:reference "id" ; rr:datatype xsd:string ]
+  ] ;
+
+  # Fecha/hora
+  rr:predicateObjectMap [
+    rr:predicate aq:fechaHora ;
+    rr:objectMap [ rml:reference "datetimeUtc" ; rr:datatype xsd:dateTime ]
+  ] ;
+
+  # Zona horaria
+  rr:predicateObjectMap [
+    rr:predicate aq:tieneZonaHoraria ;
+    rr:objectMap [ rml:reference "timezone" ; rr:datatype xsd:string ]
+  ] ;
+
+  # Enlace a Ubicación (por location_name_rdf)
+  rr:predicateObjectMap [
+    rr:predicate aq:enUbicacion ;
+    rr:objectMap [
+      rr:parentTriplesMap <#triplesmap2> ;
+      rr:joinCondition [
+        rr:child  "location_name_rdf" ;
+        rr:parent "location_name_rdf"
+      ]
+    ]
+  ] ;
+
+  # Enlace a Contaminante (por parameter)
+  rr:predicateObjectMap [
+    rr:predicate aq:mideParametro ;
+    rr:objectMap [
+      rr:parentTriplesMap <#triplesmap3> ;
+      rr:joinCondition [
+        rr:child  "parameter" ;
+        rr:parent "parameter"
+      ]
+    ]
+  ]
+.
+
+
+################################
+# TriplesMap2: Ubicación
+################################
+<#triplesmap2> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "CalidadAireReconciliadoV3-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ] ;
+  rr:subjectMap [
+    rr:template "http://linkeddata.grup05.es/CalidadAireMadrid/resource/Ubicacion/{location_name_rdf}" ;
+    rr:class aq:Ubicacion
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rml:reference "location_name_rdf" ; rr:datatype xsd:string ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate schema1:name ;
+    rr:objectMap [ rml:reference "location_name_rdf" ; rr:datatype xsd:string ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate schema1:latitude ;
+    rr:objectMap [ rml:reference "latitude" ; rr:datatype xsd:decimal ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate schema1:longitude ;
+    rr:objectMap [ rml:reference "longitude" ; rr:datatype xsd:decimal ]
+  ] ;
+
+  # Link a ubicación (columna location_url)
+  rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant owl:sameAs ; rr:termType rr:IRI ] ;
+    rr:objectMap   [ rml:reference "location_url" ; rr:termType rr:IRI ]
+  ]
+.
+
+
+################################
+# TriplesMap3: Contaminante
+################################
+<#triplesmap3> a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "CalidadAireReconciliadoV3-with-links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ] ;
+  rr:subjectMap [
+    rr:template "http://linkeddata.grup05.es/CalidadAireMadrid/resource/Contaminante/{parameter}" ;
+    rr:class aq:Contaminante
+  ] ;
+
+  # Etiqueta del contaminante
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rml:reference "parameter" ; rr:datatype xsd:string ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate aq:valor ;
+    rr:objectMap [ rml:reference "value" ; rr:datatype xsd:decimal ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate aq:unidad ;
+    rr:objectMap [ rml:reference "unit" ; rr:datatype xsd:string ]
+  ] ;
+
+  # Link a contaminante (columna parameter_url)
+  rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant owl:sameAs ; rr:termType rr:IRI ] ;
+    rr:objectMap   [ rml:reference "parameter_url" ; rr:termType rr:IRI ]
+  ]
+.

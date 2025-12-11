@@ -1,0 +1,75 @@
+@prefix ns: <http://knowledge.graphs/Group06/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://knowledge.graphs/Group06/data/> .
+
+#ejemplo Hospital 1
+
+ns:Hospital_PareJofre a ns:Hospital;
+    ns:estaEnbarrio ns:Barrio_FAVARA ;
+    ns:hasBeds "125"^^xsd:integer ;
+    ns:isFinancedby ns:Financiacion_Publico ;
+    ns:isLocatedin "San Llatzer s/n"^^xsd:string ;
+    ns:isNamed "Hospital Pare Jofre"^^xsd:string ;
+    ns:isType ns:Tipo_Hospital ;
+    ns:tieneCoddistBarrio ns:coddistbar_85 ;
+    ns:tieneCodigodeBarrio ns:codbarrio_5 ;
+    ns:tieneCodigodistrito ns:coddistrit_8 ;
+    ns:wasCreatedin ns:Fecha_2021_06_30 .
+
+    ns:Barrio_FAVARA a ns:Barrio ;
+        rdfs:label "Favara" .
+    
+    ns:Financiacion_Publico a ns:Financiaci ;
+        rdfs:label "Publico" .
+    
+    ns:Tipo_Hospital a ns:Tipo ;
+        rdfs:label "Hospital" .
+    
+    ns:coddistbar_85 a ns:coddistbar ;
+        rdfs:label "85"^^xsd:integer .
+
+    ns:codbarrio_5 a ns:codbarrio ;
+        rdfs:label "5"^^xsd:integer .
+
+    ns:coddistrit_8 a ns:coddistrit ;
+        rdfs:label "8"^^xsd:integer .
+
+    ns:Fecha_2021_06_30 a ns:Fecha ;
+        rdfs:label "2021-06-30"^^xsd:date .
+
+#ejemplo Hospital 2
+
+ns:Hospital_PareJofre a ns:Hospital;
+    ns:estaEnbarrio ns:Barrio_BORBOTO ;
+    ns:hasBeds "0"^^xsd:integer ;
+    ns:isFinancedby ns:Financiacion_Publico ;
+    ns:isLocatedin "Plaza del Moreral 8"^^xsd:string ;
+    ns:isNamed "Consultorio Local Valencia"^^xsd:string ;
+    ns:isType ns:Tipo_Consultorio ;
+    ns:tieneCoddistBarrio ns:coddistbar_177 ;
+    ns:tieneCodigodeBarrio ns:codbarrio_7 ;
+    ns:tieneCodigodistrito ns:coddistrit_17 ;
+    ns:wasCreatedin ns:Fecha_2021_06_30 .
+
+    ns:Barrio_BORBOTO a ns:Barrio ;
+        rdfs:label "Borboto" .
+    
+    ns:Financiacion_Publico a ns:Financiaci ;
+        rdfs:label "Publico" .
+    
+    ns:Tipo_Consultorio a ns:Tipo ;
+        rdfs:label "Consultorio" .
+    
+    ns:coddistbar_177 a ns:coddistbar ;
+        rdfs:label "177"^^xsd:integer .
+
+    ns:codbarrio_7 a ns:codbarrio ;
+        rdfs:label "7"^^xsd:integer .
+
+    ns:coddistrit_17 a ns:coddistrit ;
+        rdfs:label "17"^^xsd:integer .
+
+    ns:Fecha_2021_06_30 a ns:Fecha ;
+        rdfs:label "2021-06-30"^^xsd:date .

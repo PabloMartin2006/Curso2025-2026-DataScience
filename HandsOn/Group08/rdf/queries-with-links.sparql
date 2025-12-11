@@ -1,0 +1,31 @@
+PREFIX bm: <https://datos.grupo08-2025-cdia.org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?name ?station ?data
+WHERE {
+	?station a bm:Station ;
+		bm:name ?name ;
+		owl:sameAs ?data .
+}
+LIMIT 20
+
+SELECT ?station ?name ?lat ?long ?wikidata
+WHERE {
+    ?station a bm:Station ;
+             bm:name ?name ;
+             owl:sameAs ?wikidata ;
+             bm:hasLocation ?loc .
+
+    ?loc bm:latitude ?lat ;
+         bm:longitude ?long .
+}
+LIMIT 20
+
+SELECT ?station ?data
+WHERE {
+	?station a bm:Station ;
+		bm:totalBases ?bases;
+		owl:sameAs ?data . 
+	FILTER(?bases > 20)
+}
+LIMIT 20

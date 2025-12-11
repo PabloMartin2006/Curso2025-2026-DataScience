@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,17 +32,20 @@
             background: #ffffff;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            overflow: hidden; /* Para que los bordes redondeados afecten a la tabla */
+            overflow: hidden;
+            /* Para que los bordes redondeados afecten a la tabla */
         }
 
         /* Estilos para la tabla */
         table {
             width: 100%;
-            border-collapse: collapse; /* Elimina el espacio entre celdas */
+            border-collapse: collapse;
+            /* Elimina el espacio entre celdas */
         }
 
         /* Estilos para las celdas de encabezado (th) y celdas de datos (td) */
-        th, td {
+        th,
+        td {
             padding: 15px 20px;
             text-align: left;
             border-bottom: 1px solid #e0e0e0;
@@ -49,7 +53,8 @@
 
         /* Estilos específicos para el encabezado de la tabla */
         thead {
-            background-color: #007bff; /* Un azul moderno */
+            background-color: #007bff;
+            /* Un azul moderno */
             color: #ffffff;
             font-size: 1.1em;
         }
@@ -71,6 +76,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h1>Análisis del dataset</h1>
@@ -173,34 +179,100 @@
             </tbody>
         </table>
 
-   
-  
-  </div>
- <h1>Analisis de la licencia</h1>
-        <h2>Publicador y titular de los derechos</h2>
-            <p>Nuestro conjunto de datos (Hospitales y otros centros sanitarios) esta publicado por el <strong>Ajuntament de València</strong> en su portal de datos, que es abierto:</p>
-                <a href="https://valencia.opendatasoft.com/explore/dataset/hospitales/information/">https://valencia.opendatasoft.com/explore/dataset/hospitales/information/</a>
-            <p>El ayuntamiento de valencia también actúa como titular de los derechos, ya que es quien recopila, mantiene y difunde los datos de manera oficial.</p>
-        <h2>Licencia</h2>
-            <p>Como ya comentado en la entrega anterior, según la información disponible en la página del dataset y en la sección de exportación del portal los datos se publican bajo la licencia <strong>Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</strong> cuyo link e informacion de la licencia esta adjuntado en la propia página (link anterior) y es:</p>
-                 <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>
-            <strong>Lo que implica dicha licencia (CC BY 4.0)</strong>
-        <ul>
-          <li>Permite copiar, distribuir y comunicar públicamente los datos</li>
-          <li>Permite crear obras derivadas (es decir que no hoy problema para nuestro RDF)</li>
-          <li>Permite uso con fines comerciales y no comerciales.</li>
-          <li>Y obliga a citar y dar crédito la fuente original es decir, dar crédito al Ajuntament de València y enlazar a la licencia</li>
-        </ul>
 
-          <h2>Fuente</h2>
-  <p>Como ya he dicho antes, la información sobre la licencia y la política de reutilización del portal puede verse en las páginas del propio catlogo y en los términos y condiciones del portal que informa que salvo indicación en contrario, los datasets se publican bajo la Licencia Creative Commons Atribución 4.0</p>
 
-  <h2>Implicaciones para nuestro trabajo </h2>
-  
-    <p>Como el dataset original está bajo <strong>CC BY 4.0</strong> como ya dicho podemos transformar los datos o enzalarlo y despues publicar los resultados sin tener que pedir ningun tipo de permiso, solo nos hace falta cirtar al ayundamiento de valéncia lo que nos da una facilidad de manejo uso y pubulicacon de datos bastante buena </p>
+    </div>
+    <h1>Estrategia de nombrado de recursos</h1>
+    <p>La estrategia de nombrado de recursos adoptada para este proyecto se define de la siguiente manera:</p>
 
-    
+    <h2>Dominio de URIs</h2>
+    <p>El dominio base utilizado para todos los recursos es:</p>
+    <p><code>https://knowledge.graphs/Group06</code></p>
+
+    <h2>Forma de URI</h2>
+    <p>Se utilizan URIs basadas en <strong>hash (#)</strong> para la ontología y los recursos individuales. Esta
+        estrategia permite que tanto el vocabulario como los recursos se sirvan desde el mismo documento base.</p>
+
+    <h2>Path (Ruta)</h2>
+    <ul>
+        <li><strong>Ontología:</strong> <code>/ontology#</code></li>
+        <li><strong>Recursos (Hospitales):</strong> <code>/ontology#Hospitales/{Nombre}</code></li>
+    </ul>
+
+    <h2>Patrones de URI</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipo de Recurso</th>
+                <th>Patrón de URI</th>
+                <th>Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Clase</td>
+                <td><code>https://knowledge.graphs/Group06/ontology#{NombreClase}</code></td>
+                <td><code>https://knowledge.graphs/Group06/ontology#Hospital</code></td>
+            </tr>
+            <tr>
+                <td>Propiedad</td>
+                <td><code>https://knowledge.graphs/Group06/ontology#{nombrePropiedad}</code></td>
+                <td><code>https://knowledge.graphs/Group06/ontology#isNamed</code></td>
+            </tr>
+            <tr>
+                <td>Instancia</td>
+                <td><code>https://knowledge.graphs/Group06/ontology#Hospitales/{Nombre}</code></td>
+                <td><code>https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico</code></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Analisis de la licencia</h1>
+    <h2>Publicador y titular de los derechos</h2>
+    <p>Nuestro conjunto de datos (Hospitales y otros centros sanitarios) esta publicado por el <strong>Ajuntament de
+            València</strong> en su portal de datos, que es abierto:</p>
+    <a
+        href="https://valencia.opendatasoft.com/explore/dataset/hospitales/information/">https://valencia.opendatasoft.com/explore/dataset/hospitales/information/</a>
+    <p>El ayuntamiento de valencia también actúa como titular de los derechos, ya que es quien recopila, mantiene y
+        difunde los datos de manera oficial.</p>
+    <h2>Licencia</h2>
+    <p>Como ya comentado en la entrega anterior, según la información disponible en la página del dataset y en la
+        sección de exportación del portal los datos se publican bajo la licencia <strong>Creative Commons Atribución 4.0
+            Internacional (CC BY 4.0)</strong> cuyo link e informacion de la licencia esta adjuntado en la propia página
+        (link anterior) y es:</p>
+    <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>
+    <strong>Lo que implica dicha licencia (CC BY 4.0)</strong>
+    <ul>
+        <li>Permite copiar, distribuir y comunicar públicamente los datos</li>
+        <li>Permite crear obras derivadas (es decir que no hoy problema para nuestro RDF)</li>
+        <li>Permite uso con fines comerciales y no comerciales.</li>
+        <li>Y obliga a citar y dar crédito la fuente original es decir, dar crédito al Ajuntament de València y enlazar
+            a la licencia</li>
+    </ul>
+
+    <h2>Fuente</h2>
+    <p>Como ya he dicho antes, la información sobre la licencia y la política de reutilización del portal puede verse en
+        las páginas del propio catlogo y en los términos y condiciones del portal que informa que salvo indicación en
+        contrario, los datasets se publican bajo la Licencia Creative Commons Atribución 4.0</p>
+
+    <h2>Implicaciones para nuestro trabajo </h2>
+
+    <p>Como el dataset original está bajo <strong>CC BY 4.0</strong> como ya dicho podemos transformar los datos o
+        enzalarlo y despues publicar los resultados sin tener que pedir ningun tipo de permiso, solo nos hace falta
+        cirtar al ayundamiento de valéncia lo que nos da una facilidad de manejo uso y pubulicacon de datos bastante
+        buena </p>
+
+    <h2>Licencia del Dataset Generado</h2>
+    <p>
+        Para el dataset RDF que hemos generado, hemos decidido mantener la licencia <strong>CC BY 4.0</strong> (Creative
+        Commons Attribution 4.0), que es la misma que utiliza el Ayuntamiento de València para los datos originales.
+    </p>
+    <p>
+        La elección de esta licencia garantiza la compatibilidad legal con los datos originales del Ayuntamiento, para
+        asi simplificamos la reutilización para cualquier otro usuario que desee combinar ambos datasets.
+    </p>
     </div>
 
 </body>
+
 </html>
