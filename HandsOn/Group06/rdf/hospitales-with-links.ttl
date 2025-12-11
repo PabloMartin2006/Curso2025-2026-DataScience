@@ -1,0 +1,852 @@
+@prefix ns1: <https://knowledge.graphs/Group06/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Benimaclet> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q536707>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Benimaclet" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle GUARDIA CIVIL, Nº 13" ;
+    ns1:isNamed "Centro de Salud Benimaclet" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 141 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 14 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20C.S.I%20Juan%20Llorens> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9018818>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "La Petxina" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle JUAN LLORENS, Nº 8" ;
+    ns1:isNamed "Centro de Salud C.S.I Juan Llorens" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 33 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 3 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Fontsanta> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11687662>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "La Fuensanta (Valencia)" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de la Mare de Déu de la Fontsanta, 18" ;
+    ns1:isNamed "Centro de Salud Fontsanta" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 74 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 7 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Gil%20y%20Morte> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8204897>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Arrancapins" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle del Dr. Gil i Morte, 33" ;
+    ns1:isNamed "Centro de Salud Gil y Morte" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 34 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 3 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Just%20Ram%C3%ADrez> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9088545>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Tormos" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Just Ramírez, s/n" ;
+    ns1:isNamed "Centro de Salud Just Ramírez" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 54 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 5 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Lliri> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q777986>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Benicalap" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle AZUCENA, Nº 9" ;
+    ns1:isNamed "Centro de Salud Lliri" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 161 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 16 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Luis%20Oliag> a ns1:Hospital ;
+    owl:sameAs <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Mont-olivet" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Lluís Oliag, 62" ;
+    ns1:isNamed "Centro de Salud Luis Oliag" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 101 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Malva-Rosa> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11690389>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Malvarrosa (Valencia)" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle ISABEL DE VILLENA, Nº2 PABELLÓN C" ;
+    ns1:isNamed "Centro de Salud Malva-Rosa" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 113 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Miguel%20Servet> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5725686>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Benicalap" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Amics del Corpus" ;
+    ns1:isNamed "Centro de Salud Miguel Servet" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 161 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 16 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Nou%20Moles> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11696079>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Nou Moles" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de l'Art Major de la Seda, 40" ;
+    ns1:isNamed "Centro de Salud Nou Moles" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 71 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 7 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Plaza%20Segovia> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9018191>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "L'Hort de Senabre" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Plaza de Segòvia, s/n" ;
+    ns1:isNamed "Centro de Salud Plaza Segovia" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 92 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 9 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Republica%20Argentina> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11687498>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "L'Amistat" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de la República Argentina, 8" ;
+    ns1:isNamed "Centro de Salud Republica Argentina" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 133 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 13 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Ruzafa> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9071485>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Russafa" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Sant Valero, 8" ;
+    ns1:isNamed "Centro de Salud Ruzafa" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 21 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 2 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Allende> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9089066>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Torrefiel" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle del Comte de Lumiares, 3" ;
+    ns1:isNamed "Centro de Salud Salvador Allende" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 152 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 15 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Salvador%20Pau> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q586053>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Albors" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Salvador Pau, 42" ;
+    ns1:isNamed "Centro de Salud Salvador Pau" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 122 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 12 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Isidro> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9073950>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "San Isidro (Valencia)" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Campos Crespo, 94" ;
+    ns1:isNamed "Centro de Salud San Isidro" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 82 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 8 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20San%20Marcelino> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q55231>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "San Marcelino (Valencia)" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Sant Pius X, 32" ;
+    ns1:isNamed "Centro de Salud San Marcelino" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 94 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 9 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20I> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1770940>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "L'Illa Perduda" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Serrería, 73" ;
+    ns1:isNamed "Centro de Salud Serreria I" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 131 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 13 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Serreria%20II> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1770940>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "L'Illa Perduda" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Pere de València, 28" ;
+    ns1:isNamed "Centro de Salud Serreria II" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 131 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 13 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trafalgar> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5575779>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "La Creu del Grau" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Trafalgar, 32" ;
+    ns1:isNamed "Centro de Salud Trafalgar" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 123 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 12 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Trinitat> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9090102>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Trinidad" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de la Flora, 7" ;
+    ns1:isNamed "Centro de Salud Trinitat" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 53 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 5 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Benimamet> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4888020>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Benimàmet" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Ing. Aubán, 20" ;
+    ns1:isNamed "Centro de Salud Valencia - Benimamet" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 181 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 18 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Campanar> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9073969>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Sant Pau" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle VICENTE RIOS ENRIQUE, S/N" ;
+    ns1:isNamed "Centro de Salud Valencia - Campanar" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 44 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 4 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Castellar%20-%20Oliveral> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2839376>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Castellar-Oliveral" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Vicente Puchol, 11" ;
+    ns1:isNamed "Centro de Salud Valencia - Castellar - Oliveral" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 192 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Fuente%20San%20Luis> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9048373>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Na Rovella" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de la Mare de Déu de la Fontsanta, 18" ;
+    ns1:isNamed "Centro de Salud Valencia - Fuente San Luis" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 105 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Ingeniero%20J.%20Benlloch> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9027164>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Malilla" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Joaquin Benlloch, 27" ;
+    ns1:isNamed "Centro de Salud Valencia - Ingeniero J. Benlloch" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 103 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Juan%20XXIII> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5725686>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Benicalap" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenida de Juan XXIII, 39" ;
+    ns1:isNamed "Centro de Salud Valencia - Juan XXIII" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 161 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 16 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Marco%20Merenciano> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9089066>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Torrefiel" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Félix del Río (Activista Veïnal), 26" ;
+    ns1:isNamed "Centro de Salud Valencia - Marco Merenciano" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 152 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 15 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Valencia%20-%20Napoles%20y%20Sicilia> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9019062>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "La Xerea" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Plaza Nápoles y Sicilia, 4" ;
+    ns1:isNamed "Centro de Salud Valencia - Napoles y Sicilia" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 12 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 1 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20Vicente%20Brull> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5015234>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Cabañal-Cañamelar" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Vicent Brull, 71" ;
+    ns1:isNamed "Centro de Salud Vicente Brull" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 112 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Centro%20de%20Salud%20de%20Nazaret> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q92724255>,
+        <https://www.wikidata.org/entity/Q97619721> ;
+    ns1:estaEnbarrio "Barrio de Cocoteros" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle de Fernando Morais de la Horra, 2" ;
+    ns1:isNamed "Centro de Salud de Nazaret" ;
+    ns1:isType "Centro de Salud" ;
+    ns1:tieneCoddistBarrio 115 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/ClInica%20Casa%20de%20la%20Salud> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q586053>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Albors" ;
+    ns1:hasBeds 192 ;
+    ns1:isFinancedby "Privado" ;
+    ns1:isLocatedin "Dr. Manuel Candela, 41" ;
+    ns1:isNamed "ClInica Casa de la Salud" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 122 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 12 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Fontana> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9071485>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Russafa" ;
+    ns1:hasBeds 7 ;
+    ns1:isFinancedby "Privado" ;
+    ns1:isLocatedin "Calle Alicante, 31" ;
+    ns1:isNamed "Clinica Fontana" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 21 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 2 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Quiron%20de%20Valencia%2C%20S.A.> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10285105>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Exposición (Valencia)" ;
+    ns1:hasBeds 79 ;
+    ns1:isFinancedby "Privado" ;
+    ns1:isLocatedin "Avenida Blasco Ibáñez, 14" ;
+    ns1:isNamed "Clinica Quiron de Valencia, S.A." ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 61 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 6 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Clinica%20Virgen%20del%20Consuelo> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2891373>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "La Raiosa" ;
+    ns1:hasBeds 156 ;
+    ns1:isFinancedby "Privado" ;
+    ns1:isLocatedin "Calle Callosa de Ensarria, 12" ;
+    ns1:isNamed "Clinica Virgen del Consuelo" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 91 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 9 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consorcio%20Hospital%20General%20Universitario%20De%20Valencia> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11687662>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "La Fuensanta (Valencia)" ;
+    ns1:hasBeds 592 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenida Tres Cruces" ;
+    ns1:isNamed "Consorcio Hospital General Universitario De Valencia" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 74 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 7 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxiliar%20de%20La%20Punta> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q585354> ;
+    ns1:estaEnbarrio "La Punta" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenida De Jesús Morante Borrás, 176" ;
+    ns1:isNamed "Consultorio Auxiliar de La Punta" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 106 ;
+    ns1:tieneCodigodeBarrio 6 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Auxilirar%20de%20Benigaraig> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8246327> ;
+    ns1:estaEnbarrio "Benifaraig" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Ferrer Y Bigne, Nº 47" ;
+    ns1:isNamed "Consultorio Auxilirar de Benigaraig" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 171 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 17 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Guillem%20de%20Castro> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11004084> ;
+    ns1:estaEnbarrio "El Botánico" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle De Guillem De Castro, 149" ;
+    ns1:isNamed "Consultorio Guillem de Castro" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 31 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 3 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valenca%20-%20Massarrojos> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11691509> ;
+    ns1:estaEnbarrio "Massarrojos" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Del Retor Bau, 10" ;
+    ns1:isNamed "Consultorio Local Valenca - Massarrojos" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 176 ;
+    ns1:tieneCodigodeBarrio 6 ;
+    ns1:tieneCodigodistrito 17 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Arquitecto%20Tolsa> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8775138> ;
+    ns1:estaEnbarrio "Orriols" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Arquitecto Tolsa, Nº 20" ;
+    ns1:isNamed "Consultorio Local Valencia - Arquitecto Tolsa" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 151 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 15 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Bilbao> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6120185> ;
+    ns1:estaEnbarrio "San Antonio (Valencia)" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Bilbao, Nº 23" ;
+    ns1:isNamed "Consultorio Local Valencia - Bilbao" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 55 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 5 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Borboto> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8250836> ;
+    ns1:estaEnbarrio "Borbotó" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Plaza Del Moreral, Nº 8" ;
+    ns1:isNamed "Consultorio Local Valencia - Borboto" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 177 ;
+    ns1:tieneCodigodeBarrio 7 ;
+    ns1:tieneCodigodistrito 17 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carpesa> a ns1:Hospital ;
+    ns1:estaEnbarrio "Carpesa" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Apóstol San Pedro, 23" ;
+    ns1:isNamed "Consultorio Local Valencia - Carpesa" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 173 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 17 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Carretera%20de%20Artes> a ns1:Hospital ;
+    ns1:estaEnbarrio "La Fonteta S.Lluis" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Carretera D'artés, 6" ;
+    ns1:isNamed "Consultorio Local Valencia - Carretera de Artes" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 104 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Chile> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5645611> ;
+    ns1:estaEnbarrio "Mestalla" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle De Xile, 22" ;
+    ns1:isNamed "Consultorio Local Valencia - Chile" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 62 ;
+    ns1:tieneCodigodeBarrio 2 ;
+    ns1:tieneCodigodistrito 6 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20El%20Palmar> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5695212> ;
+    ns1:estaEnbarrio "El Palmar" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Dels Redolins, 7" ;
+    ns1:isNamed "Consultorio Local Valencia - El Palmar" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 195 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Horno%20de%20Alcedo> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11682604> ;
+    ns1:estaEnbarrio "Forn d'Alcedo" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Camino D'alabau, 2" ;
+    ns1:isNamed "Consultorio Local Valencia - Horno de Alcedo" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 191 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20La%20Torre> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9019012> ;
+    ns1:estaEnbarrio "La Torre" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Benidoleig, 9" ;
+    ns1:isNamed "Consultorio Local Valencia - La Torre" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 197 ;
+    ns1:tieneCodigodeBarrio 7 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20-%20Tendetes> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3393032> ;
+    ns1:estaEnbarrio "Campanar" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle De Ricardo Micó, 3" ;
+    ns1:isNamed "Consultorio Local Valencia - Tendetes" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 41 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 4 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia%20L%27Alger> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8247202> ;
+    ns1:estaEnbarrio "Beteró" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle De L'alguer, 28" ;
+    ns1:isNamed "Consultorio Local Valencia L'Alger" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 114 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Local%20Valencia-%20El%20Perellonet> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5683078> ;
+    ns1:estaEnbarrio "El Perellonet" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle De Sotavent, 1" ;
+    ns1:isNamed "Consultorio Local Valencia- El Perellonet" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 196 ;
+    ns1:tieneCodigodeBarrio 6 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Consultorio%20Pinedo> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9059900> ;
+    ns1:estaEnbarrio "Pinedo" ;
+    ns1:hasBeds 0 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Marino Villamil, 8" ;
+    ns1:isNamed "Consultorio Pinedo" ;
+    ns1:isType "Consultorio" ;
+    ns1:tieneCoddistBarrio 193 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 19 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Fundacion%20Instituto%20Valenciano%20de%20Oncologia> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3393032>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Campanar" ;
+    ns1:hasBeds 160 ;
+    ns1:isFinancedby "Concertado" ;
+    ns1:isLocatedin "Profesor Beltrán Báguena, 11,8 y 19" ;
+    ns1:isNamed "Fundacion Instituto Valenciano de Oncologia" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 41 ;
+    ns1:tieneCodigodeBarrio 1 ;
+    ns1:tieneCodigodistrito 4 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%209%20de%20Octubre> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9073969>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Sant Pau" ;
+    ns1:hasBeds 300 ;
+    ns1:isFinancedby "Privado" ;
+    ns1:isLocatedin "Avenida Valle de la Ballestera, 59" ;
+    ns1:isNamed "Hospital 9 de Octubre" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 44 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 4 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Arnau%20de%20Vilanova> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9073969>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Sant Pau" ;
+    ns1:hasBeds 302 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle San Clemente, 12" ;
+    ns1:isNamed "Hospital Arnau de Vilanova" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 44 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 4 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Clinico%20Universitario%20de%20Valencia> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8346555>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Ciudad Universitaria (Valencia)" ;
+    ns1:hasBeds 587 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenida Blasco Ibáñez, 17" ;
+    ns1:isNamed "Hospital Clinico Universitario de Valencia" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 64 ;
+    ns1:tieneCodigodeBarrio 4 ;
+    ns1:tieneCodigodistrito 6 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20Dr.%20Peset> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8960964>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Favara" ;
+    ns1:hasBeds 539 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenida Gaspar Aguilar, 90" ;
+    ns1:isNamed "Hospital Universitario Dr. Peset" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 85 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 8 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20Universitario%20y%20Politecnico%20La%20Fe> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9027164>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Malilla" ;
+    ns1:hasBeds 1000 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Avenidanguda de Fernando Abril Martorell, 106" ;
+    ns1:isNamed "Hospital Universitario y Politecnico La Fe" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 103 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 10 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20de%20Valencia%20al%20Mar> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11690389>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Malvarrosa (Valencia)" ;
+    ns1:hasBeds 70 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Río Tajo, 1" ;
+    ns1:isNamed "Hospital de Valencia al Mar" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 113 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20la%20Malva-Rosa> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11690389>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Malvarrosa (Valencia)" ;
+    ns1:hasBeds 47 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "Calle Isabel de Villena, 2" ;
+    ns1:isNamed "Hospital la Malva-Rosa" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 113 ;
+    ns1:tieneCodigodeBarrio 3 ;
+    ns1:tieneCodigodistrito 11 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://knowledge.graphs/Group06/ontology#Hospitales/Hospital%20pare%20Jofre> a ns1:Hospital ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8960964>,
+        <https://www.wikidata.org/entity/Q16917> ;
+    ns1:estaEnbarrio "Favara" ;
+    ns1:hasBeds 125 ;
+    ns1:isFinancedby "Publico" ;
+    ns1:isLocatedin "San Llátzer s/n" ;
+    ns1:isNamed "Hospital pare Jofre" ;
+    ns1:isType "hospital" ;
+    ns1:tieneCoddistBarrio 85 ;
+    ns1:tieneCodigodeBarrio 5 ;
+    ns1:tieneCodigodistrito 8 ;
+    ns1:wasCreatedin "2021-06-30T00:00:00+00:00"^^xsd:dateTime .
+

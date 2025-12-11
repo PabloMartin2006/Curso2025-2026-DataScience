@@ -2,11 +2,12 @@ prefixes:
   ns: https://knowledge.graphs/Group06/ontology#
   xsd: http://www.w3.org/2001/XMLSchema#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
   
 mappings:
   HospitalMapping:
     sources:
-      - ['csv/hospitales-updated.csv~csv']
+      - ['csv/hospitales-with-links.csv~csv']
     s: ns:Hospitales/$(Nombre)
     po:
       - [a, ns:Hospital]
@@ -20,3 +21,5 @@ mappings:
       - [ns:tieneCodigodeBarrio, $(codbarrio), xsd:integer]
       - [ns:tieneCoddistBarrio, $(coddistbar), xsd:integer]
       - [ns:tieneCodigodistrito, $(coddistrit), xsd:integer]
+      - [owl:sameAs, $(same_as_wikidata_tipo)~iri]
+      - [owl:sameAs, $(same_as_wikidata_barrio)~iri]

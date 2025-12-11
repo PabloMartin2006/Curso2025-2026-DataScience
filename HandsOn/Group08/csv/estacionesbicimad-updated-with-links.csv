@@ -1,0 +1,252 @@
+IdStation,Name,Address,AddressForReconciling,same_as_wikidata_address,DockBikes,FreeBases,TotalBases,Estado,NoAvailabl,Longitud,Latitud
+1408,4 - Malasaña,"Calle Manuela Malasaña, 3","Calle de Manuela Malasaña, Madrid",https://www.wikidata.org/entity/Q27044275,2,25,27,Fuera de servicio,Disponible,-3.7025,40.428626
+1409,5 - Fuencarral,"Calle Fuencarral, 106",calle de Fuencarral,https://www.wikidata.org/entity/Q5740840,4,23,27,Fuera de servicio,Disponible,-3.702135,40.428521
+1410,6 - Colegio Arquitectos,"Calle Hortaleza, 63",calle de Hortaleza,https://www.wikidata.org/entity/Q5740911,9,9,19,Poca disponibilidad,Disponible,-3.698447,40.424148
+1411,7 - Hortaleza,"Calle Hortaleza, 75",calle de Hortaleza,https://www.wikidata.org/entity/Q5740911,18,1,19,Disponible,Disponible,-3.697771,40.425191
+1417,13 - Conde Duque,"Calle Conde Duque, 22",calle del Conde Duque,https://www.wikidata.org/entity/Q27031730,3,20,23,Fuera de servicio,Disponible,-3.7105,40.4273
+1418,14 - Ventura Rodríguez,"Ventura Rodríguez, 3",calle de Ventura Rodríguez,https://www.wikidata.org/entity/Q28016771,5,22,27,Fuera de servicio,Disponible,-3.713307,40.426043
+1419,15 - Norte,"Calle norte, 10","Calle del Norte, Madrid",https://www.wikidata.org/entity/Q29840509,1,18,19,Fuera de servicio,Disponible,-3.707445,40.426238
+1423,19 - Prim,"Calle Prim, 4","Calle de Prim, Madrid",https://www.wikidata.org/entity/Q28916366,20,8,28,Disponible,Disponible,-3.695498,40.421862
+1424,20A - Banco de España,"Calle Alcalá, 48",Alcalá Street,https://www.wikidata.org/entity/Q2424746,15,12,27,Poca disponibilidad,Disponible,-3.695247,40.418808
+1427,24 - Palacio de Oriente,"Calle Carlos III, 1","Calle de Carlos III, Madrid",https://www.wikidata.org/entity/Q29004341,12,6,18,Poca disponibilidad,Disponible,-3.71065,40.417767
+1432,28 - Metro Sevilla,"Calle Alcalá, 28",Alcalá Street,https://www.wikidata.org/entity/Q2424746,17,1,18,Disponible,Disponible,-3.698458,40.41806
+1433,29 - Marqués de Cubas,"Calle del Marqués de Cubas, 25",calle del Marqués de Cubas,https://www.wikidata.org/entity/Q19304646,20,3,23,Disponible,Disponible,-3.695743,40.416384
+1434,30 - San Quintín,"Calle Pavía, 4","Calle de Pavía, Madrid",https://www.wikidata.org/entity/Q30816733,8,19,27,Fuera de servicio,Disponible,-3.711504,40.41921
+1435,31 - Mayor,"Calle Mayor, 16",Calle Mayor,https://www.wikidata.org/entity/Q1149052,18,9,27,Poca disponibilidad,Disponible,-3.706897,40.416364
+1445,41 - Metro Antón Martín,"Calle Atocha, 56",calle de Atocha,https://www.wikidata.org/entity/Q5492657,12,7,19,Poca disponibilidad,Disponible,-3.699115,40.412205
+1446,42 - Santa Isabel,"Calle Santa Isabel, 32",Calle Santa Isabel,https://www.wikidata.org/entity/Q121327550,0,26,27,Fuera de servicio,Disponible,-3.698292,40.410849
+1447,43 - Jesús y María,"Calle Jesús y María, 38","Calle de Jesús y María, Madrid",https://www.wikidata.org/entity/Q52153441,12,6,18,Poca disponibilidad,Disponible,-3.702471,40.410039
+1450,46 - Ribera de Curtidores,"Calle Ribera de Curtidores, 28",Calle de la Ribera de Curtidores,https://www.wikidata.org/entity/Q5740938,14,13,27,Poca disponibilidad,Disponible,-3.707126,40.405315
+1453,49 - Casa Encendida,"Ronda de Atocha, 34",Ronda de Atocha,https://www.wikidata.org/entity/Q26831149,12,15,27,Poca disponibilidad,Disponible,-3.699277,40.406053
+1458,54 - Metro Tribunal,"Calle Barceló, 9",calle de Barceló,https://www.wikidata.org/entity/Q27051120,15,4,19,Disponible,Disponible,-3.700393,40.426599
+1462,58 - Metro Chueca,"Calle Augusto Figueroa, 33","Calle de Augusto Figueroa, Madrid",https://www.wikidata.org/entity/Q29564346,7,20,27,Fuera de servicio,Disponible,-3.697858,40.422278
+1463,59 - Plaza de Juan Pujol,"Calle Espíritu Santo, 30","Calle del Espíritu Santo, Madrid",https://www.wikidata.org/entity/Q5740833,4,15,19,Fuera de servicio,Disponible,-3.704342,40.42555
+1465,61 - O Donnell - Narváez,"Calle O Donnell, 30",calle de O'Donnell,https://www.wikidata.org/entity/Q5740859,24,3,27,Disponible,Disponible,-3.675314,40.421455
+1466,62 - Hospital M. Infantil Gregorio Marañón,"Calle O Donnell, 48",calle de O'Donnell,https://www.wikidata.org/entity/Q5740859,22,5,27,Disponible,Disponible,-3.672497,40.421315
+1467,63 - Hospital Gral. Uni. Gregorio Marañón,"Calle Ibiza, 64","Calle de Ibiza, Madrid",https://www.wikidata.org/entity/Q63247838,4,19,23,Fuera de servicio,Disponible,-3.670896,40.417924
+1468,65 - Parque del Retiro - Calle Antonio Maura,"Calle Antonio Maura, 13","Calle de Antonio Maura, Madrid",https://www.wikidata.org/entity/Q29566726,22,2,24,Disponible,Disponible,-3.689425,40.416701
+1471,69 - Parque del Retiro - Puerta Ángel Caído,"Avenida de Alfonso XII, 54","Avenida de Alfonso XIII, Madrid",https://www.wikidata.org/entity/Q29397736,8,19,27,Fuera de servicio,Disponible,-3.688822,40.409808
+1472,70 - Hospital Uni. Infantil Niño Jesús,"Avenida de Menéndez Pelayo, 63","Avenida de Menéndez Pelayo, Madrid",https://www.wikidata.org/entity/Q28936960,17,10,27,Poca disponibilidad,Disponible,-3.677873,40.415382
+1474,72 - Metro Sáinz de Baranda,"Calle Doctor Esquerdo, 62",calle del Doctor Esquerdo,https://www.wikidata.org/entity/Q5741005,7,16,23,Fuera de servicio,Disponible,-3.6696,40.4159
+1476,74 - Parque Retiro - Jardines Cecilio Rguez,"Avenida de Menéndez Pelayo, 69","Avenida de Menéndez Pelayo, Madrid",https://www.wikidata.org/entity/Q28936960,20,7,27,Disponible,Disponible,-3.676589,40.412063
+1481,79 - Metro Menéndez Pelayo,"Avenida de Menéndez Pelayo, 38","Avenida de Menéndez Pelayo, Madrid",https://www.wikidata.org/entity/Q28936960,8,19,27,Fuera de servicio,Disponible,-3.68044,40.40511
+1485,82 - Doctor Esquerdo - Metro Conde de Casal,"Calle Lira, 1","Calle de Lira, Madrid",https://www.wikidata.org/entity/Q56167668,1,22,23,Fuera de servicio,Disponible,-3.669753,40.408456
+1486,83 - Pío Baroja,"Calle Pío Baroja, 8",calle de Pío Baroja,https://www.wikidata.org/entity/Q118724995,6,17,23,Fuera de servicio,Disponible,-3.674479,40.4133
+1487,84 - Biblioteca Pública Elena Fortún,"Calle Doctor Esquerdo, 191",calle del Doctor Esquerdo,https://www.wikidata.org/entity/Q5741005,3,20,23,Fuera de servicio,Disponible,-3.672482,40.403572
+1488,85 - Parque del Retiro - Puerta de O´Donnell,"Avenida de Menéndez Pelayo, 9","Avenida de Menéndez Pelayo, Madrid",https://www.wikidata.org/entity/Q28936960,11,16,27,Poca disponibilidad,Disponible,-3.679891,40.421314
+1489,86 - Cibeles,"Paseo del Prado, 1B",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,22,2,24,Disponible,Disponible,-3.69335,40.418652
+1490,87 - Ayala - Velázquez,"Calle Ayala, 46",Calle de Ayala,https://www.wikidata.org/entity/Q28052812,22,1,23,Disponible,Disponible,-3.683257,40.427736
+1491,88 - Velázquez-Padilla,"Calle Velázquez, 13",Calle de Velázquez,https://www.wikidata.org/entity/Q20031523,21,2,23,Disponible,Disponible,-3.68383,40.431358
+1492,89 - Ayala - Conde de Peñalver,"Calle Ayala, 104",Calle de Ayala,https://www.wikidata.org/entity/Q28052812,16,7,23,Poca disponibilidad,Disponible,-3.675202,40.427258
+1493,90 - Metro Velázquez,"Calle Goya, 20",Calle de Goya,https://www.wikidata.org/entity/Q28015873,19,8,27,Disponible,Disponible,-3.683842,40.425149
+1494,91 - Hermosilla - General Pardiñas,"Calle Hermosilla, 71",Calle de Hermosilla,https://www.wikidata.org/entity/Q28052826,8,15,23,Poca disponibilidad,Disponible,-3.678628,40.426049
+1495,92 - Claudio Coello - Hermosilla,"Calle Claudio Coello, 43",Claudio Coello Street,https://www.wikidata.org/entity/Q28059043,22,1,23,Disponible,Disponible,-3.686546,40.426294
+1497,94 - Estación de tren de Recoletos,"Paseo de Recoletos, 20",Paseo de Recoletos,https://www.wikidata.org/entity/Q2550870,20,3,23,Disponible,Disponible,-3.690756,40.423215
+1498,95 - Claudio Coello - Villanueva,"Calle Claudio Coello, 19",Claudio Coello Street,https://www.wikidata.org/entity/Q28059043,22,1,23,Disponible,Disponible,-3.686929,40.422543
+1499,96 - Alcalá - Castelló,"Calle Alcalá, 111",Alcalá Street,https://www.wikidata.org/entity/Q2424746,18,9,27,Poca disponibilidad,Disponible,-3.682205,40.422015
+1501,98 - Plaza de Felipe II,"Calle Narváez, 3","Calle de Narváez, Madrid",https://www.wikidata.org/entity/Q28936837,20,4,24,Disponible,Disponible,-3.675768,40.424132
+1503,100 - Wizink Center,"Calle Goya, 99",Calle de Goya,https://www.wikidata.org/entity/Q28015873,6,21,27,Fuera de servicio,Disponible,-3.67384,40.42478
+1504,101 - Metro O Donnell,"Calle Jorge Juán, 129",Calle de Jorge Juan,https://www.wikidata.org/entity/Q28070822,18,6,24,Disponible,Disponible,-3.66968,40.423077
+1505,102 - Metro Retiro,"Calle Alcalá, 95",Alcalá Street,https://www.wikidata.org/entity/Q2424746,23,0,23,Disponible,Disponible,-3.684232,40.421185
+1506,103 - Ortega y Gasset - Serrano,"Calle José Ortega y Gasset, 6","Calle de José Ortega y Gasset, Madrid",https://www.wikidata.org/entity/Q16540548,19,4,23,Disponible,Disponible,-3.686744,40.43053
+1507,104 - Castellana - Hermosilla,"Paseo de la Castellana, 4",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,21,2,23,Disponible,Disponible,-3.68958,40.42677
+1508,"105 - Serrano, 46","Calle Serrano, 46",Serrano Street,https://www.wikidata.org/entity/Q5740879,20,3,23,Disponible,Disponible,-3.687542,40.427083
+1510,106B - Plaza de Colón B,"Calle Serrano, 32",Serrano Street,https://www.wikidata.org/entity/Q5740879,19,0,19,Disponible,Disponible,-3.68789,40.424776
+1511,107 - Serrano - Conde de Aranda,"Calle Serrano, 8",Serrano Street,https://www.wikidata.org/entity/Q5740879,16,7,23,Poca disponibilidad,Disponible,-3.688384,40.421561
+1513,109 - Marqués de Salamanca,"Calle José Ortega y Gasset, 30","Calle de José Ortega y Gasset, Madrid",https://www.wikidata.org/entity/Q16540548,22,1,23,Disponible,Disponible,-3.681452,40.430124
+1514,110 - Intercambiador de Moncloa,"Paseo de Moret, 1",paseo de Moret,https://www.wikidata.org/entity/Q26821443,3,20,23,Fuera de servicio,Disponible,-3.720102,40.434745
+1516,111B - Metro Moncloa B,"Calle Arcipreste de Hita, 12","Calle del Arcipreste de Hita, Madrid",https://www.wikidata.org/entity/Q27243768,1,22,23,Fuera de servicio,Disponible,-3.717743,40.433913
+1517,112 - Paseo de Moret - Parque del Oeste,"Paseo Moret, 9",paseo de Moret,https://www.wikidata.org/entity/Q26821443,17,6,23,Disponible,Disponible,-3.724736,40.43269
+1519,114 - Quintana - Juan Álvarez de Mendizábal,"Calle Quintana, 13",calle de Quintana,https://www.wikidata.org/entity/Q28016208,11,12,23,Poca disponibilidad,Disponible,-3.717463,40.427838
+1522,116B - Metro Plaza de España,"Calle de los Reyes, 10",calle de los Reyes,https://www.wikidata.org/entity/Q20908841,14,4,18,Disponible,Disponible,-3.71046,40.423684
+1523,117 - Altamirano  - Martín de los Heros,"Calle Altamirano, 24","Calle de Altamirano, Madrid",https://www.wikidata.org/entity/Q28015954,1,22,23,Fuera de servicio,Disponible,-3.71889,40.43098
+1525,119 - Méndez Álvaro,"Calle Méndez Álvaro, 11","Calle de Méndez Álvaro, Madrid",https://www.wikidata.org/entity/Q5553104,18,5,23,Disponible,Disponible,-3.686265,40.401291
+1527,121 - Glorieta de Santa María de la Cabeza,"Paseo de Santa María de la Cabeza, 58",Paseo de Santa María de la Cabeza,https://www.wikidata.org/entity/Q6065630,8,19,27,Fuera de servicio,Disponible,-3.698603,40.401749
+1528,122 - Santa Engracia - Zurbarán,"Calle Santa Engracia, 14",calle de Santa Engracia,https://www.wikidata.org/entity/Q26728109,18,5,23,Disponible,Disponible,-3.696366,40.429536
+1529,123 - Metro Argüelles,"Calle Guzmán el Bueno, 2",calle de Guzmán el Bueno,https://www.wikidata.org/entity/Q27031398,13,14,27,Poca disponibilidad,Disponible,-3.713341,40.430646
+1530,124 - Metro Bilbao,"Calle Manuel Silvela, 20","Calle de Manuel Silvela, Madrid",https://www.wikidata.org/entity/Q28032364,2,25,27,Fuera de servicio,Disponible,-3.699369,40.430969
+1531,125 - Fdez. de la Hoz - Gral. Martínez Campos,"Calle Fernández de la Hoz, 29",Fernández de la Hoz street,https://www.wikidata.org/entity/Q27314868,21,6,27,Disponible,Disponible,-3.6948,40.4353
+1532,126 - General Álvarez de Castro,"Calle del General Álvarez de Castro, 6","Calle del General Álvarez de Castro, Madrid",https://www.wikidata.org/entity/Q28024232,4,23,27,Fuera de servicio,Disponible,-3.701804,40.434598
+1533,127 - Mercado Municipal de Vallehermoso,"Calle Fernando el Católico, 19","Calle de Fernando el Católico, Madrid",https://www.wikidata.org/entity/Q27243299,3,24,27,Fuera de servicio,Disponible,-3.708439,40.433852
+1534,128 - Metro Islas Filipinas,"Calle Cea Bermúdez, 59",calle de Cea Bermúdez,https://www.wikidata.org/entity/Q26791743,20,7,27,Disponible,Disponible,-3.7154,40.4392
+1535,129 - Metro Alonso Cano,"Calle de José Abascal, 33-35","Calle de José Abascal, Madrid",https://www.wikidata.org/entity/Q27310549,0,27,27,Fuera de servicio,Disponible,-3.698235,40.438387
+1536,130 - Metro Ríos Rosas,"Calle de Santa Engracia, 129",calle de Santa Engracia,https://www.wikidata.org/entity/Q26728109,19,4,23,Disponible,Disponible,-3.70164,40.44156
+1537,131 - Plaza de Juan Zorrilla,"Calle Bravo Murillo, 44",calle de Bravo Murillo,https://www.wikidata.org/entity/Q5740815,8,15,23,Poca disponibilidad,Disponible,-3.704031,40.441788
+1538,132 - Glorieta de Cuatro Caminos,"Calle Santa Engracia, 164",calle de Santa Engracia,https://www.wikidata.org/entity/Q26728109,14,13,27,Poca disponibilidad,Disponible,-3.703605,40.446378
+1540,134 - María de Guzmán - Agustín de Betancourt,"Calle María de Guzmán, 58","Calle de María de Guzmán, Madrid",https://www.wikidata.org/entity/Q27310035,2,21,23,Fuera de servicio,Disponible,-3.695569,40.444182
+1542,136 - Metro Nuevos Ministerios,"Paseo de la Castellana, 106",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,21,2,23,Disponible,Disponible,-3.690769,40.445124
+1544,138 - Estación de tren Nuevos Ministerios,"Paseo de la Castellana, 63",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,13,10,23,Poca disponibilidad,Disponible,-3.691406,40.445741
+1545,139 - José Gutiérrez Abascal - Castellana,"Calle Pedro de Valdivia, 2","Calle de Pedro de Valdivia, Madrid",https://www.wikidata.org/entity/Q28059081,16,8,24,Poca disponibilidad,Disponible,-3.690419,40.439396
+1546,140 - Velázquez - López de Hoyos,"Calle Velázquez, 134",Calle de Velázquez,https://www.wikidata.org/entity/Q20031523,22,5,27,Disponible,Disponible,-3.683058,40.438757
+1547,141 - Plaza de Emilio Castelar,"Paseo de la Castellana, 43",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,8,4,12,Poca disponibilidad,Disponible,-3.689392,40.435405
+1548,142 - Bajo elevado de Eduardo Dato,"Paseo de la Castellana, 42",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,20,3,23,Disponible,Disponible,-3.687915,40.433409
+1549,186 - General Pardiñas - Don Ramón de la Cruz,"Calle General Pardiñas, 58",General Pardiñas Street,https://www.wikidata.org/entity/Q28065178,13,10,23,Poca disponibilidad,Disponible,-3.678302,40.42898
+1550,144 - Metro Diego de León,"Calle de Juan Bravo, 51","Calle de Juan Bravo, Madrid",https://www.wikidata.org/entity/Q28054647,15,12,27,Poca disponibilidad,Disponible,-3.675556,40.432408
+1551,145 - Ortega y Gasset 87,"Calle Ortega y Gasset, 87","Calle de José Ortega y Gasset, Madrid",https://www.wikidata.org/entity/Q16540548,2,21,23,Fuera de servicio,Disponible,-3.671282,40.429887
+1553,147 - Doctor Arce 45,"Avenida del Doctor Arce, 45","Avenida del Doctor Arce, Madrid",https://www.wikidata.org/entity/Q29199638,4,19,23,Fuera de servicio,Disponible,-3.6794,40.4484
+1554,148 - Serrano 210,"Calle Serrano, 210",Serrano Street,https://www.wikidata.org/entity/Q5740879,9,14,23,Poca disponibilidad,Disponible,-3.681397,40.451117
+1555,149 - Plaza de Quito,"Paseo de la Habana, 42","Paseo de La Habana, Madrid",https://www.wikidata.org/entity/Q28059068,20,3,23,Disponible,Disponible,-3.68793,40.449852
+1557,151 - Orense 12,"Calle Orense, 12","Calle de Orense, Madrid",https://www.wikidata.org/entity/Q26761687,24,3,27,Disponible,Disponible,-3.695359,40.448812
+1558,"152 - General Perón, 4","Avenida del General Perón, 4",Avenida del General Perón,https://www.wikidata.org/entity/Q26761632,3,20,23,Fuera de servicio,Disponible,-3.6989,40.4525
+1559,153 - General Perón - Poeta Joan Maragall,"Avenida del General Perón, 36",Avenida del General Perón,https://www.wikidata.org/entity/Q26761632,20,3,23,Disponible,Disponible,-3.6936,40.4523
+1560,154 - Orense 36,"Calle Orense, 36","Calle de Orense, Madrid",https://www.wikidata.org/entity/Q26761687,12,12,24,Poca disponibilidad,Disponible,-3.694622,40.454846
+1561,155 - San Germán 57,"Calle San Germán, 57","Calle de San Germán, Madrid",https://www.wikidata.org/entity/Q26750807,0,23,23,Fuera de servicio,Disponible,-3.70093,40.457334
+1562,156 - Sor Ángela de la Cruz-Paseo Castellana,"Calle Sor Ángela de la Cruz, 2","Calle de Sor Ángela de la Cruz, Madrid",https://www.wikidata.org/entity/Q21011321,21,3,24,Disponible,Disponible,-3.691533,40.459235
+1564,158 - Alberto Alcocer - Padre Damián,"Avenida de Alberto Alcocer, 22",avenida de Alberto Alcocer,https://www.wikidata.org/entity/Q26833742,12,11,23,Poca disponibilidad,Disponible,-3.684625,40.45869
+1565,159 - Paseo de la Habana 63,"Paseo de la Habana, 63","Paseo de La Habana, Madrid",https://www.wikidata.org/entity/Q28059068,13,10,23,Poca disponibilidad,Disponible,-3.683593,40.454385
+1567,161 - Intercambiador de Príncipe Pío A,"Paseo de la Florida, 8","Paseo de la Florida, Madrid",https://www.wikidata.org/entity/Q5576961,3,24,27,Fuera de servicio,Disponible,-3.722099,40.422192
+1569,163 - Metro Acacias,"Paseo de la Esperanza, 2A","Paseo de la Esperanza, Madrid",https://www.wikidata.org/entity/Q55947011,11,8,19,Poca disponibilidad,Disponible,-3.706445,40.403759
+1570,164 - Paseo de las Delicias - Tomás Bretón,"Paseo de las Delicias, 94","Paseo de las Delicias, Madrid",https://www.wikidata.org/entity/Q6065662,7,20,27,Fuera de servicio,Disponible,-3.69461,40.39723
+1572,166 - Viaducto de Segovia,"Calle Segovia, 26",calle de Segovia,https://www.wikidata.org/entity/Q8255505,15,12,27,Poca disponibilidad,Disponible,-3.713377,40.413905
+1573,167 - Segovia 45,"Calle Segovia, 45",calle de Segovia,https://www.wikidata.org/entity/Q8255505,9,18,27,Poca disponibilidad,Disponible,-3.717489,40.413748
+1575,169 - Glorieta de Pirámides,"Calle Toledo, 181",calle de Toledo,https://www.wikidata.org/entity/Q5740883,22,2,24,Disponible,Disponible,-3.713823,40.401589
+1576,"170 - Paseo de la Esperanza, 21","Paseo de la Esperanza, 21","Paseo de la Esperanza, Madrid",https://www.wikidata.org/entity/Q55947011,14,10,24,Poca disponibilidad,Disponible,-3.704396,40.401055
+1577,171 - Embajadores-Cáceres,"Calle Embajadores, 97",calle de Embajadores,https://www.wikidata.org/entity/Q5740826,15,12,27,Poca disponibilidad,Disponible,-3.698402,40.399701
+1578,172 - Estación de tren de Delicias,"Calle Bustamante, 3","Calle de Bustamante, Madrid",https://www.wikidata.org/entity/Q27430098,8,15,23,Poca disponibilidad,Disponible,-3.693493,40.400828
+1579,173 - Paseo Esperanza - Santa María Cabeza,"Paseo de la Esperanza, 59","Paseo de la Esperanza, Madrid",https://www.wikidata.org/entity/Q55947011,1,23,24,Fuera de servicio,Disponible,-3.702484,40.398347
+1580,"174 - Paseo de las Yeserías, 45","Paseo de Yeserías, 45","Paseo de las Yeserías, Madrid",https://www.wikidata.org/entity/Q16616818,1,26,27,Fuera de servicio,Disponible,-3.706526,40.39743
+1585,179 - Metro Puente de Vallecas,"Avenida de la Albufera, 6",Avenida de la Albufera,https://www.wikidata.org/entity/Q5714221,12,12,24,Poca disponibilidad,Disponible,-3.669272,40.397927
+1587,181 - Ibiza - Narváez,"Calle Ibiza, 16","Calle de Ibiza, Madrid",https://www.wikidata.org/entity/Q63247838,6,21,27,Fuera de servicio,Disponible,-3.676444,40.418169
+1589,183 - Hermosilla - Doctor Esquerdo,"Calle Hermosilla, 135",Calle de Hermosilla,https://www.wikidata.org/entity/Q28052826,3,20,23,Fuera de servicio,Disponible,-3.669339,40.425635
+1592,143 - Diego de León - General Pardiñas,"Calle de Diego de León, 54","Calle de Diego de León, Madrid",https://www.wikidata.org/entity/Q28059485,3,20,23,Fuera de servicio,Disponible,-3.67808,40.434676
+1594,188 - Puente de Ventas,"Avenida de Daroca, 2","Avenida de Daroca, Madrid",https://www.wikidata.org/entity/Q62107216,16,11,27,Poca disponibilidad,Disponible,-3.659029,40.431256
+1595,189 - Virgen de la Alegría,Avenida donostiarra,avenida Donostiarra,https://www.wikidata.org/entity/Q118670072,1,22,23,Fuera de servicio,Disponible,-3.655492,40.435126
+1596,190 - Velázquez - Diego de León,"Calle Velázquez, 91",Calle de Velázquez,https://www.wikidata.org/entity/Q20031523,15,8,23,Poca disponibilidad,Disponible,-3.683375,40.434305
+1598,192 - Avda. de los Toreros - Fco. Silvela,"Avenida de los Toreros, 3","Avenida de los Toreros, Madrid",https://www.wikidata.org/entity/Q29918658,15,12,27,Poca disponibilidad,Disponible,-3.671468,40.431826
+1599,193 - Plaza de las Ventas,"Avenida De los Toreros, 49","Avenida de los Toreros, Madrid",https://www.wikidata.org/entity/Q29918658,11,16,27,Poca disponibilidad,Disponible,-3.665555,40.432472
+1600,194 - Intercambiador de Avenida de América,"Calle Francisco Silvela, 87",Francisco Silvela Street,https://www.wikidata.org/entity/Q26833642,22,2,24,Disponible,Disponible,-3.677154,40.437264
+1602,196 - Metro Prosperidad,"Calle Suero de Quiñones, 4","Calle de Suero de Quiñones, Madrid",https://www.wikidata.org/entity/Q29202471,2,25,27,Fuera de servicio,Disponible,-3.675222,40.444224
+1603,197 - Parque de Berlín,"Avenida de Concha Espina, 36",avenida de Concha Espina,https://www.wikidata.org/entity/Q27137943,9,14,23,Poca disponibilidad,Disponible,-3.677916,40.451606
+1605,"199 - Fernando el Católico, 61","Calle Fernando el Católico, 61","Calle de Fernando el Católico, Madrid",https://www.wikidata.org/entity/Q27243299,4,23,27,Fuera de servicio,Disponible,-3.714917,40.434361
+1607,201 - Metro Canal,"Calle José Abascal, 2","Calle de José Abascal, Madrid",https://www.wikidata.org/entity/Q27310549,10,13,23,Poca disponibilidad,Disponible,-3.703833,40.438694
+1608,202 - Parque de Santander,"Calle de Santander, 1","Calle de Santander, Madrid",https://www.wikidata.org/entity/Q29648920,13,14,27,Poca disponibilidad,Disponible,-3.7083,40.4413
+1612,206 - Metro Tetuán,"Calle Marqués de Viana, 3","Calle del Marqués de Viana, Madrid",https://www.wikidata.org/entity/Q28944893,1,22,23,Fuera de servicio,Disponible,-3.698916,40.460747
+1613,207 - Plaza de la Remonta,"Calle Azucenas, 2",calle de las Azucenas,https://www.wikidata.org/entity/Q27150352,0,19,19,Fuera de servicio,Disponible,-3.697335,40.463044
+1614,208 - Intercambiador de Plaza de Castilla,"Paseo de la Castellana, 216",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,0,18,18,Fuera de servicio,Disponible,-3.689061,40.466281
+1616,210 - Calle de las Tres Cruces - Gran Vía,Calle de las Tres Cruces,calle de las Tres Cruces,https://www.wikidata.org/entity/Q24537177,23,4,27,Disponible,Disponible,-3.702716,40.419652
+1619,213 - Glorieta de Cádiz,"Calle de Antonio López, 129",calle de Antonio López,https://www.wikidata.org/entity/Q42238475,10,13,23,Poca disponibilidad,Disponible,-3.700225,40.388992
+1623,217 - Hospital Universitario La Paz,"Calle Pedro Rico, 4","Calle de Pedro Rico, Madrid",https://www.wikidata.org/entity/Q56427389,20,3,23,Disponible,Disponible,-3.689076,40.480884
+1624,218 - Camino de los Vinateros A,"Camino de Vinateros, 28",Calle Camino de los Vinateros,https://www.wikidata.org/entity/Q28935892,6,17,23,Fuera de servicio,Disponible,-3.657297,40.410548
+1625,219 - Camino de los Vinateros B,"Camino de los Vinateros, 108",Calle Camino de los Vinateros,https://www.wikidata.org/entity/Q28935892,7,11,18,Poca disponibilidad,Disponible,-3.646734,40.408359
+1627,221 - Metro Pavones,"Calle Hacienda de Pavones, 148","Calle de la Hacienda de Pavones, Madrid",https://www.wikidata.org/entity/Q28936083,20,3,23,Disponible,Disponible,-3.634744,40.400492
+1629,223 - Ermita del Santo,"Paseo de la Ermita del Santo, 48",Paseo de la Ermita del Santo,https://www.wikidata.org/entity/Q28137105,10,17,27,Poca disponibilidad,Disponible,-3.724576,40.406448
+1635,229 - Centro Deportivo Municipal Concepción,"Calle José del Hierro, 6","Calle de José del Hierro, Madrid",https://www.wikidata.org/entity/Q29910699,0,23,23,Fuera de servicio,Disponible,-3.648651,40.436938
+1636,230 - Carlota O´Neill - Agastia,"Calle Carlota O Neill, 30-32",calle de Carlota O'Neill,https://www.wikidata.org/entity/Q29909274,2,22,24,Fuera de servicio,Disponible,-3.648825,40.443679
+1639,233 - El dragón de La Elipa,"Calle Marqués de Corbera, 12","Avenida del Marqués de Corbera, Madrid",https://www.wikidata.org/entity/Q29168364,12,12,24,Poca disponibilidad,Disponible,-3.655579,40.422952
+1640,234 - Metro La Elipa,"Avenida Marques de Corbera, 52","Avenida del Marqués de Corbera, Madrid",https://www.wikidata.org/entity/Q29168364,8,16,24,Poca disponibilidad,Disponible,-3.651092,40.426128
+1642,236 - Paseo Imperial,"Paseo Imperial, 31",paseo Imperial,https://www.wikidata.org/entity/Q118634190,21,6,27,Disponible,Disponible,-3.717078,40.407579
+1644,"238 - San Germán, 5","CalleSan Germán, 5","Calle de San Germán, Madrid",https://www.wikidata.org/entity/Q26750807,22,2,24,Disponible,Disponible,-3.693261,40.456182
+1645,239 - Francos Rodríguez - José Calvo,"Calle de Francos Rodríguez, 62","Calle de Francos Rodríguez, Madrid",https://www.wikidata.org/entity/Q26810988,3,20,23,Fuera de servicio,Disponible,-3.707833,40.456713
+1646,240 - Brasilia - Parque Breogán,"Avenida De Brasilia, 9",avenida de Brasilia,https://www.wikidata.org/entity/Q118670004,4,19,23,Fuera de servicio,Disponible,-3.66096,40.43666
+1649,243 - Cartagena,"Calle Cartagena, 37","Calle de Cartagena, Madrid",https://www.wikidata.org/entity/Q27038851,3,20,23,Fuera de servicio,Disponible,-3.67012,40.43503
+1650,244 - Hospital Clínico San Carlos,"Calle Isaac Peral, 42",calle de Isaac Peral,https://www.wikidata.org/entity/Q26791245,10,13,23,Poca disponibilidad,Disponible,-3.71757,40.44003
+1651,245 - Galileo - Donoso Cortés,"Calle Galileo, 63",calle de Galileo,https://www.wikidata.org/entity/Q27031392,2,22,24,Fuera de servicio,Disponible,-3.710138,40.436364
+1652,246 - Metro Iglesia,"Calle de Santa Engracia, 85-87",calle de Santa Engracia,https://www.wikidata.org/entity/Q26728109,23,4,27,Disponible,Disponible,-3.699248,40.435958
+1653,247 - Zurbano - José Abascal,"Calle de Zurbano, 90",calle de Zurbano,https://www.wikidata.org/entity/Q27043742,18,5,23,Disponible,Disponible,-3.69281,40.43837
+1654,248 - Sinesio Delgado - Cuatro Torres,"Calle de Sinesio Delgado, 2",Sinesio Delgado Street,https://www.wikidata.org/entity/Q52245452,22,5,27,Disponible,Disponible,-3.687997,40.474321
+1655,249 - Castellana - Cuatro Torres,"Paseo de la Castellana, 298",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,23,1,24,Disponible,Disponible,-3.685319,40.479502
+1656,250 - Serrano - CSIC,"Calle Serrano, 111",Serrano Street,https://www.wikidata.org/entity/Q5740879,16,11,27,Poca disponibilidad,Disponible,-3.68581,40.440649
+1657,251 - Santa Hortensia - Corazón de María,"Calle Santa Hortensia, 31","Calle de Santa Hortensia, Madrid",https://www.wikidata.org/entity/Q28943619,2,21,23,Fuera de servicio,Disponible,-3.66683,40.44421
+1658,252 - Est. tren Chamartín - Clara Campoamor,"Calle Agustín de Foxá, 40","Calle de Agustín de Foxá, Madrid",https://www.wikidata.org/entity/Q54526348,1,22,23,Fuera de servicio,Disponible,-3.683969,40.47174
+1659,253 - Doctor Fleming - Estadio S. Bernabéu,"Calle del Doctor Fleming, 7",Calle del Doctor Fleming,https://www.wikidata.org/entity/Q28740159,19,0,19,Disponible,Disponible,-3.68844,40.45546
+1660,254 - Plaza del Perú,"Avenida De Pio XII, 3",Avenida de Pío XII,https://www.wikidata.org/entity/Q54369706,6,17,23,Fuera de servicio,Disponible,-3.67656,40.461
+1661,255 - General López Pozas - Apolonio Morales,"Calle General López pozas, 2","Calle del General López Pozas, Madrid",https://www.wikidata.org/entity/Q29055446,9,14,23,Poca disponibilidad,Disponible,-3.685292,40.46361
+1662,256 - Reina Victoria - Beatriz de Bobadilla,"Calle Beatriz de Bobadilla, 4","Calle de Beatriz de Bobadilla, Madrid",https://www.wikidata.org/entity/Q62935606,4,19,23,Fuera de servicio,Disponible,-3.71383,40.44635
+1663,257 - Ciudad Universitaria - INEF,"Avenida Juan Herrera, 1",avenida de Juan de Herrera,https://www.wikidata.org/entity/Q118644577,22,1,23,Disponible,Disponible,-3.730527,40.438873
+1665,259 - Metro Ciudad Universitaria B,"Ciudad Universitaria, 2",Ciudad Universitaria,https://www.wikidata.org/entity/Q3319235,19,0,19,Disponible,Disponible,-3.726752,40.442705
+1667,261 - Ciudad Universitaria - Facultad Derecho,"Avenida Complutense, 21","Avenida Complutense, Madrid",https://www.wikidata.org/entity/Q63954356,23,0,23,Disponible,Disponible,-3.729676,40.450552
+1956,"386 - Avenida de los Poblados, 130","Avenida de los Poblados, 130",avenida de los Poblados,https://www.wikidata.org/entity/Q26795575,11,12,23,Poca disponibilidad,Disponible,-3.713315,40.373474
+1957,476 - Metro Avenida de la Paz,"Avenida Ramon y Cajal, 101","Avenida de Ramón y Cajal, Madrid",https://www.wikidata.org/entity/Q30467128,2,21,23,Fuera de servicio,Disponible,-3.662016,40.453493
+1964,"284 - Avenida de Burgos, 17","Avda. de Burgos, 17",avenida de Burgos,https://www.wikidata.org/entity/Q29902431,8,15,23,Poca disponibilidad,Disponible,-3.67579,40.473594
+1968,523 - Carretera de Canillas,"Calle carretera de canillas, 17","Carretera de Canillas, Madrid",https://www.wikidata.org/entity/Q28973490,11,12,23,Poca disponibilidad,Disponible,-3.650893,40.46287
+1969,285 - Santa María Magdalena - La Drácena,"Calle Santa María Magdalena, 15",calle de Santa María Magdalena,https://www.wikidata.org/entity/Q62991157,19,4,23,Disponible,Disponible,-3.6706,40.4631
+1972,288 - Caídos de la División Azul,"Calle Caídos de la División Azul, 28",Calle de los Caídos de la División Azul,https://www.wikidata.org/entity/Q29793566,18,5,23,Disponible,Disponible,-3.6723,40.4664
+1974,460 - Fuente Carrantona - Doctor García Tapia,"Fuente Carrantona , 33","Calle de la Fuente Carrantona, Madrid",https://www.wikidata.org/entity/Q28936137,4,23,27,Fuera de servicio,Disponible,-3.631923,40.407022
+1981,501 - Metro Alsacia,"Calle Hermanos García Noblejas, 137","Calle de los Hermanos García Noblejas, Madrid",https://www.wikidata.org/entity/Q5740959,8,15,23,Poca disponibilidad,Disponible,-3.6242,40.4191
+1982,498 - Metro Torre Arias,"Calle Alcalá, 546",Alcalá Street,https://www.wikidata.org/entity/Q2424746,12,15,27,Poca disponibilidad,Disponible,-3.617832,40.443134
+1983,499 - Biblioteca Pública Municipal Canillejas,"Calle Alcala, 590",Alcalá Street,https://www.wikidata.org/entity/Q2424746,1,22,23,Fuera de servicio,Disponible,-3.6122,40.446656
+1985,497 - Metro Suances,"Calle Alcalá, 506",Alcalá Street,https://www.wikidata.org/entity/Q2424746,22,1,23,Disponible,Disponible,-3.6274,40.4407
+1995,295 - Hernani - Edgar Neville,"Calle Hernani, 59","Calle de Hernani, Madrid",https://www.wikidata.org/entity/Q26833571,23,0,23,Disponible,Disponible,-3.6972,40.4481
+2000,"457 - Hacienda de Pavones, 148","Hacienda de Pavones, 148","Calle de la Hacienda de Pavones, Madrid",https://www.wikidata.org/entity/Q28936083,5,18,23,Fuera de servicio,Disponible,-3.6419,40.4026
+2002,298 - Marques de Viana - Bellver,"Calle Marqués de Viana, 85","Calle del Marqués de Viana, Madrid",https://www.wikidata.org/entity/Q28944893,0,19,19,Fuera de servicio,Disponible,-3.704478,40.463643
+2009,"420 - Candilejas, 5","Calle Candilejas, 5","Calle de Candilejas, Madrid",https://www.wikidata.org/entity/Q29551148,19,4,23,Disponible,Disponible,-3.663004,40.382636
+2013,569 - C. Deportivo Mpal. Vicente del Bosque,"Avenida Monforte de Lemos, 13","Avenida de Monforte de Lemos, Madrid",https://www.wikidata.org/entity/Q52683954,16,7,23,Poca disponibilidad,Disponible,-3.6965,40.4795
+2019,305 - Intercambiador de Príncipe Pío B,"Paseo de la Florida, 37","Paseo de la Florida, Madrid",https://www.wikidata.org/entity/Q5576961,10,13,23,Poca disponibilidad,Disponible,-3.723178,40.422761
+2021,486 - Serrano Galvache - Arturo Soria,"Calle Serrano Galvache, 1",calle de Serrano Galvache,https://www.wikidata.org/entity/Q54370755,18,5,23,Disponible,Disponible,-3.667938,40.471382
+2023,462 - Gallegos - Lavadero Viejo,"Calle Gallegos, 27",street of Nicasio Gallego,https://www.wikidata.org/entity/Q28537739,16,11,27,Poca disponibilidad,Disponible,-3.610275,40.402404
+2024,421 - Arroyo del Olivar - Buenos Aires,"Calle Arroyo del Olivar, 63","Calle del Arroyo del Olivar, Madrid",https://www.wikidata.org/entity/Q29561517,2,22,24,Fuera de servicio,Disponible,-3.653269,40.388435
+2032,428 - Estadio de Vallecas,"Avenida La Albufera, 136",Avenida de la Albufera,https://www.wikidata.org/entity/Q5714221,12,12,24,Poca disponibilidad,Disponible,-3.6571,40.3919
+2034,489 - Serrano Galvache - Yerma,"Serrano Galvache, 56",calle de Serrano Galvache,https://www.wikidata.org/entity/Q54370755,17,7,24,Disponible,Disponible,-3.671445,40.476753
+2040,404 - Junta Municipal Distrito de Villaverde,"Calle Arroyo Bueno, 53","Calle del Arroyo Bueno, Madrid",https://www.wikidata.org/entity/Q131353824,4,23,27,Fuera de servicio,Disponible,-3.710985,40.349111
+2049,572 - Junta Mpal. Dtto. Fuencarral - El Pardo,"Avenida Monforte de Lemos, 123","Avenida de Monforte de Lemos, Madrid",https://www.wikidata.org/entity/Q52683954,14,10,24,Poca disponibilidad,Disponible,-3.709973,40.478104
+2051,575 - Metro Barrio del Pilar,"Ginzo de Limia, 36",Calle de Ginzo de Limia,https://www.wikidata.org/entity/Q105624986,10,14,24,Poca disponibilidad,Disponible,-3.703526,40.47817
+2053,440 - Metro Villa de Vallecas,"Paseo de Federico García Lorca, 2","Paseo de Federico García Lorca, Madrid",https://www.wikidata.org/entity/Q131349608,15,3,18,Disponible,Disponible,-3.621447,40.379503
+2055,299 - Rosario Pino - Joan Maragall,"Calle Rosario Pino, 17","Calle de Rosario Pino, Madrid",https://www.wikidata.org/entity/Q29055028,5,19,24,Fuera de servicio,Disponible,-3.691932,40.46205
+2056,300 - Capitan Blanco Argibay - Alfalfa,"Calle Capitan Blanco Argibay, 112",Capitán Blanco Argibay Street,https://www.wikidata.org/entity/Q27038685,1,23,24,Fuera de servicio,Disponible,-3.703188,40.466743
+2080,302 - Ps. Dirección B - Pque A. Rguez Sahagún,"Paseo de la Dirección, 330, (enfrente)",paseo de la Dirección,https://www.wikidata.org/entity/Q27043701,1,23,24,Fuera de servicio,Disponible,-3.703955,40.470245
+2082,464 - Univ. Rey Juan Carlos - Campus Madrid,"Avenida de Daroca, 321","Avenida de Daroca, Madrid",https://www.wikidata.org/entity/Q62107216,13,11,24,Poca disponibilidad,Disponible,-3.612834,40.40634
+2084,307 - Metro Valdezarza,"Calle San Restituto, 74","Calle de San Restituto, Madrid",https://www.wikidata.org/entity/Q28938015,9,15,24,Poca disponibilidad,Disponible,-3.71693,40.46588
+2085,303 - Ps. Dirección A - Pque A. Rguez Sahagún,"Paseo de la Dirección, 161",paseo de la Dirección,https://www.wikidata.org/entity/Q27043701,14,10,24,Poca disponibilidad,Disponible,-3.708085,40.467789
+2088,309 - Ofelia Nieto - Villaamil,"Calle Ofelia Nieto, 75","Calle de Ofelia Nieto, Madrid",https://www.wikidata.org/entity/Q26832655,0,24,24,Fuera de servicio,Disponible,-3.708734,40.462051
+2090,510 - Metro Avenida de Guadalajara,"Avenida de Guadalajara, 101",Avenida de Guadalajara,https://www.wikidata.org/entity/Q52063521,12,12,24,Poca disponibilidad,Disponible,-3.613462,40.42219
+2093,513 - Centro Deportivo Mpal. Pepu Hernández,"Avenida de Niza, 9","Avenida de Niza, Madrid",https://www.wikidata.org/entity/Q28972102,10,17,27,Poca disponibilidad,Disponible,-3.606454,40.427121
+2094,514 - María Sevilla Diago,"Calle Maria Sevilla Diago, 5","Calle de María Sevilla Diago, Madrid",https://www.wikidata.org/entity/Q28972080,3,21,24,Fuera de servicio,Disponible,-3.610951,40.43283
+2105,"529 - Lopez de Hoyos , 478","Calle López de Hoyos, 478",calle de López de Hoyos,https://www.wikidata.org/entity/Q27043844,12,11,23,Poca disponibilidad,Disponible,-3.649843,40.47175
+2109,"533 - San Luis, 23","Avenida de San Luis, 23",avenida de San Luis,https://www.wikidata.org/entity/Q54370814,3,20,23,Fuera de servicio,Disponible,-3.655115,40.471487
+2110,106A - Plaza de Colón A,"Calle Serrano, 32",Serrano Street,https://www.wikidata.org/entity/Q5740879,13,6,19,Poca disponibilidad,Disponible,-3.687807,40.424924
+2130,537 - Plaza López de la Plata,"Avenida de Machupichu, 23","Avenida de Machupichu, Madrid",https://www.wikidata.org/entity/Q28971955,16,11,27,Poca disponibilidad,Disponible,-3.625794,40.458415
+2134,366 - Metro Carabanchel,"Paseo de Marcelino Camacho, 53",paseo de Marcelino Camacho,https://www.wikidata.org/entity/Q53414018,23,0,23,Disponible,Disponible,-3.744521,40.387737
+2135,291 - Plaza José María Soler,"Avenida Alfonso XIII, 113","Avenida de Alfonso XIII, Madrid",https://www.wikidata.org/entity/Q29397736,16,7,23,Poca disponibilidad,Disponible,-3.667903,40.458665
+2136,292 - Centro Deportivo Municipal Pradillo,"Calle Pradillo, 33",calle de Pradillo,https://www.wikidata.org/entity/Q55868790,7,16,23,Fuera de servicio,Disponible,-3.671794,40.449041
+2137,494 - Metro Pinar de Chamartín,"Arturo Soria, 332",calle de Arturo Soria,https://www.wikidata.org/entity/Q8255504,7,16,23,Fuera de servicio,Disponible,-3.666529,40.480694
+2139,368 - Eugenia de Montijo,"Calle Eugenia de Montijo, 57","Calle de Eugenia de Montijo, Madrid",https://www.wikidata.org/entity/Q52833570,14,1,15,Disponible,Disponible,-3.747061,40.379102
+2140,369 - Junta Municipal Distrito de Carabanchel,"Plaza De la Parroquia, 19",Plaza O'Higgins (Caracas),https://www.wikidata.org/entity/Q108414226,4,19,23,Fuera de servicio,Disponible,-3.741583,40.380245
+2142,590 - Metro Arroyofresno,"Calle Maria de Maeztu, 50",Maria de Maeztu street,https://www.wikidata.org/entity/Q124399653,1,26,27,Fuera de servicio,Disponible,-3.727572,40.49093
+2143,517 - San Mariano - Circe,"Calle de San Mariano, 52-60",calle del Músico Mariano San Miguel,https://www.wikidata.org/entity/Q115404851,27,0,27,Disponible,Disponible,-3.611905,40.441753
+2145,"371 - Joaquin Turina, 49","Calle Joaquin Turina, 49",Calle Joaquín Turina,https://www.wikidata.org/entity/Q20439963,14,13,27,Poca disponibilidad,Disponible,-3.76182,40.372458
+2147,373 - Metro La Peseta,"Calle Salvador Allende, 28",Avenida Carlos III,https://www.wikidata.org/entity/Q5713435,11,12,23,Poca disponibilidad,Disponible,-3.75787,40.362778
+2151,592 - Estación de tren de Pitis,"Calle de Gloria Fuertes, 180",calle Gloria Fuertes,https://www.wikidata.org/entity/Q134085408,8,19,27,Fuera de servicio,Disponible,-3.724953,40.495697
+2158,"378 - Eugenia de Montijo, 83","Calle Eugenia de Montijo, 83","Calle de Eugenia de Montijo, Madrid",https://www.wikidata.org/entity/Q52833570,11,13,24,Poca disponibilidad,Disponible,-3.750973,40.375623
+2160,495 - Caleruega,"Calle Caleruega, 14","Calle de Caleruega, Madrid",https://www.wikidata.org/entity/Q29353439,13,11,24,Poca disponibilidad,Disponible,-3.670588,40.478746
+2162,"594 - Calle Pedro Rico, 49","Calle Pedro Rico, 49","Calle de Pedro Rico, Madrid",https://www.wikidata.org/entity/Q56427389,5,19,24,Fuera de servicio,Disponible,-3.703918,40.48194
+2164,596 - Metro Lacoma,"Calle Ramon Gomez de la Serna, 37",Calle Ramón Gómez de la Serna,https://www.wikidata.org/entity/Q123399169,7,17,24,Fuera de servicio,Disponible,-3.723826,40.484328
+2165,540 - Estación de tren Fuente de la Mora,"Calle Dulce Chacón, S/N","Calle de Dulce Chacón, Madrid",https://www.wikidata.org/entity/Q30183488,18,6,24,Disponible,Disponible,-3.663648,40.48456
+2169,339 - Estación de tren Las Águilas,"Avenida de las Aguilas , 110","Avenida de Las Águilas, Madrid",https://www.wikidata.org/entity/Q29405114,19,5,24,Disponible,Disponible,-3.78062,40.381326
+2174,"344 - Ocaña, 103","Calle Ocaña, 103",calle de Ruiz Ocaña,https://www.wikidata.org/entity/Q118654870,8,15,23,Poca disponibilidad,Disponible,-3.75292,40.385863
+2175,"313 - Juan XXIII, 24","Paseo de Juan XXIII, 24","Paseo de Juan XXIII, Madrid",https://www.wikidata.org/entity/Q28367318,26,1,27,Disponible,Disponible,-3.716936,40.448084
+2176,314 - Av. Valladolid - Parque de la Bombilla,"Avenida Valladolid, 47D","Avenida de Valladolid, Madrid",https://www.wikidata.org/entity/Q29903461,26,1,27,Disponible,Disponible,-3.73068,40.42966
+2178,316 - C. Deportivo Mpal. Ciudad De Los Poetas,Calle Antonio Machado,"Calle de Antonio Machado, Madrid",https://www.wikidata.org/entity/Q28793893,5,14,19,Fuera de servicio,Disponible,-3.719954,40.464397
+2179,"317 - Antonio Machado, 30","Calle Antonio Machado, 30","Calle de Antonio Machado, Madrid",https://www.wikidata.org/entity/Q28793893,1,26,27,Fuera de servicio,Disponible,-3.719217,40.46827
+2184,294 - Edificio Torres Blancas,"Calle Clara del Rey, 17",Clara del Rey Street,https://www.wikidata.org/entity/Q28055037,16,8,24,Poca disponibilidad,Disponible,-3.672339,40.440944
+2205,267 - Paseo de la Chopera - Fernando Poo,"Paseo de la Chopera, 31 ,Comunidad de Madrid España","Paseo de la Chopera, Madrid",https://www.wikidata.org/entity/Q27044458,7,16,23,Fuera de servicio,Disponible,-3.7004,40.395
+2224,150 - Castellana - Hermanos Pinzón,"Paseo de la castellana, 124",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,19,4,23,Disponible,Disponible,-3.6908,40.4491
+2225,157 - Plaza de Cuzco,"Paseo de la Castellana, 164 ,Comunidad de Madrid España",Paseo de la Castellana,https://www.wikidata.org/entity/Q1473674,16,7,23,Poca disponibilidad,Disponible,-3.689415,40.459137
+2226,"395 - Guetaria, 84B","Calle Guetaria, 84B",Getaria kalea,https://www.wikidata.org/entity/Q25478880,20,4,23,Disponible,Disponible,-3.715691,40.369168
+2234,293 - Santa Rita - Clara del Rey,"Calle Santa Rita, 1",Avenida Santa Rita,https://www.wikidata.org/entity/Q107949377,1,22,23,Fuera de servicio,Disponible,-3.668288,40.445793
+2235,520 - Niza - Plaza de Grecia,"Av/ de Niza, 67",tract housing,https://www.wikidata.org/entity/Q2140144,8,15,23,Poca disponibilidad,Disponible,-3.608116,40.434281
+2247,280 - Ps de los Melancólicos - San Epifanio,"Paseo de los Melancólicos, 73",paseo de los Melancólicos,https://www.wikidata.org/entity/Q118847890,18,5,23,Disponible,Disponible,-3.718569,40.401782
+2259,566 - Avenida de Logroño,"Avenida de Logroño, 112",avenida de la Solidaridad,https://www.wikidata.org/entity/Q123385815,18,6,24,Disponible,Disponible,-3.581503,40.470347
+2263,470 - Avenida Real - Galeote,"Avenida Real, 3",Royal Avenue,https://www.wikidata.org/entity/Q7373779,8,10,18,Poca disponibilidad,Disponible,-3.606367,40.402152
+2267,"275 - Juan Antonio Vallejo-Nájera Botas, 25","Paseo Juan Antonio Vallejo-Nájera Botas, 25","Paseo de Juan Antonio Vallejo-Nájera Botas, Madrid",https://www.wikidata.org/entity/Q33093309,8,15,23,Poca disponibilidad,Disponible,-3.708212,40.402054
+2269,274 - Estación Sur Méndez Álvaro A,"Calle Méndez Álvaro, 73","Calle de Méndez Álvaro, Madrid",https://www.wikidata.org/entity/Q5553104,19,4,23,Disponible,Disponible,-3.681343,40.396758
+2270,605 - Nuria - Peña Sirio,"Calle Nuria,24",calle de la Virgen de Nuria,https://www.wikidata.org/entity/Q130245312,15,9,24,Poca disponibilidad,Disponible,-3.704883,40.491644
+2285,281 - Reina Cristina - Julián Gayarre,"Paseo de Reina Cristina, 6","Paseo de la Reina Cristina, Madrid",https://www.wikidata.org/entity/Q29051319,17,6,23,Disponible,Disponible,-3.683186,40.406725
+2287,408 - Metro San Cristóbal,"Calle de Moncada, 102",Carrer de Montcada,https://www.wikidata.org/entity/Q8255466,10,13,23,Poca disponibilidad,Disponible,-3.692444,40.341725
+2298,608 - Estella - Camino de Santiago,"Calle Estella, 21",calle Estella,https://www.wikidata.org/entity/Q119400361,19,4,23,Disponible,Disponible,-3.674357,40.49682
+2299,278 - Paseo los Pontones - Ps. Melancólicos,"Paseo de los Pontones, 26",paseo de los Pontones,https://www.wikidata.org/entity/Q26737156,2,21,23,Fuera de servicio,Disponible,-3.7196,40.404043
+2300,289 - Luis de Salazar - Padre Claret,"Calle luis de Salazar, 16","Calle de Luis de Salazar, Madrid",https://www.wikidata.org/entity/Q28940906,1,22,23,Fuera de servicio,Disponible,-3.664926,40.447417
+2302,"402 - Berrocal, 9","Calle de Berrocal, 9",calle de la Muerte y la Vida,https://www.wikidata.org/entity/Q118164532,2,25,27,Fuera de servicio,Disponible,-3.67615,40.344115
+2304,277 - Virgen del Puerto,"Paseo Virgen del Puerto, 27","Paseo de la Virgen del Puerto, Madrid",https://www.wikidata.org/entity/Q6065659,1,14,15,Fuera de servicio,Disponible,-3.721178,40.411622
+2307,1 - Metro Sol,"Calle Mayor , 6",Calle Mayor,https://www.wikidata.org/entity/Q1149052,16,7,23,Poca disponibilidad,Disponible,-3.70541,40.416465
+2308,263 - Gran Vía de San Francisco,"Avenida Gran Vía de San Francisco, 6",Gran Vía de San Francisco,https://www.wikidata.org/entity/Q32035437,8,15,23,Poca disponibilidad,Disponible,-3.712793,40.408339
+2315,347 - Est. tren Mtra Justa Freire-Poli Aluche,"Avenida de las Aguilas, 27","Avenida de Las Águilas, Madrid",https://www.wikidata.org/entity/Q29405114,16,8,24,Poca disponibilidad,Disponible,-3.768603,40.383554
+2321,283 - Museo Nacional del Prado,"Calle Felipe IV, 5",Felipe IV Road,https://www.wikidata.org/entity/Q28004581,17,6,23,Disponible,Disponible,-3.691906,40.415208
+2326,380 - Oca,"Calle de la Oca, 22",Calle de la Amargura,https://www.wikidata.org/entity/Q5021862,14,10,24,Poca disponibilidad,Disponible,-3.733549,40.389433
+2328,354 - Jacinto Verdaguer - Lola de Membrives,"Calle Jacinto Verdaguer, 12",Carrer Jacint Verdaguer,https://www.wikidata.org/entity/Q5740564,5,19,24,Fuera de servicio,Disponible,-3.716053,40.395939
+2330,549 - Francisco Pi y Maragall,"Avenida Francisco Pi y Margall, 29",Avenida de Francisco Pi y Margall,https://www.wikidata.org/entity/Q27268566,2,17,19,Fuera de servicio,Disponible,-3.650354,40.486635
+2331,"279 - Paseo de los Melancólicos, 1","Paseo de los Melancólicos, 1",paseo de los Melancólicos,https://www.wikidata.org/entity/Q118847890,10,13,23,Poca disponibilidad,Disponible,-3.718482,40.410445
+2332,"407 - Carmen de Burgos, 4","Calle Carmen de Burgos, 4",travesía Carmen de Burgos,https://www.wikidata.org/entity/Q123418095,7,16,23,Fuera de servicio,Disponible,-3.684788,40.357546
+2333,"276 - Paseo de las Yeserías, 15","Paseo de las Yeserías, 15","Paseo de las Yeserías, Madrid",https://www.wikidata.org/entity/Q16616818,12,10,23,Poca disponibilidad,Disponible,-3.709917,40.399005
+2343,474 - Estación de tren de Vicálvaro,"Calle San Cipriano, 71",calle de San Cipriano,https://www.wikidata.org/entity/Q34463888,10,17,27,Poca disponibilidad,Disponible,-3.596875,40.402255
+2350,553 - María Portugal - Niceto Alcalá Zamora,"Calle María de Portugal, 44",calle de Bárbara de Bragança,https://www.wikidata.org/entity/Q29413520,11,12,23,Poca disponibilidad,Disponible,-3.658921,40.499909
+2368,176 - Plaza de la Beata María Ana de Jesús,"Calle Alicante, 3",Calle Alicante,https://www.wikidata.org/entity/Q123383788,0,0,0,Estado desconocido/mantenimiento,No disponible,-3.693941,40.394186

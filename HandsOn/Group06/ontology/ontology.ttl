@@ -1,72 +1,91 @@
-@prefix mod: <https://w3id.org/mod#> .
-@prefix ns: <http://www.owl-ontologies.com/ns#> .
+@prefix ns: <http://knowledge.graphs/Group06/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-ns: a owl:Ontology ;
-    mod:createdWith <https://chowlk.linkeddata.es/> .
-
-ns:isNamed a owl:DatatypeProperty ;
-    rdfs:label "is named" ;
+ns:estaEnbarrio a owl:ObjectProperty ;
+    rdfs:label "esta enbarrio" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
-
-ns:isFinancedby a owl:DatatypeProperty ;
-    rdfs:label "is financedby" ;
-    rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
-
-ns:isType a owl:DatatypeProperty ;
-    rdfs:label "is type" ;
-    rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
+    rdfs:range ns:Barrio .
 
 ns:hasBeds a owl:DatatypeProperty ;
     rdfs:label "has beds" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:integer .
+    rdfs:range ns:Camas .
+
+ns:isFinancedby a owl:ObjectProperty ;
+    rdfs:label "is financedby" ;
+    rdfs:domain ns:Hospital ;
+    rdfs:range ns:Financiaci .
 
 ns:isLocatedin a owl:DatatypeProperty ;
     rdfs:label "is locatedin" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
+    rdfs:range ns:Direccion .
 
-ns:wasCreatedin a owl:DatatypeProperty ;
-    rdfs:label "was createdin" ;
+ns:isNamed a owl:DatatypeProperty ;
+    rdfs:label "is named" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:dateTime .
+    rdfs:range ns:Nombre .
 
-ns:estaEnbarrio a owl:DatatypeProperty ;
-    rdfs:label "esta enbarrio" ;
+ns:isType a owl:ObjectProperty ;
+    rdfs:label "is type" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
+    rdfs:range ns:Tipo .
 
-ns:tieneCodigodeBarrio a owl:DatatypeProperty ;
-    rdfs:label "tiene codigode barrio" ;
-    rdfs:domain ns:Hospital ;
-    rdfs:range xsd:integer .
-
-ns:tieneCoddistBarrio a owl:DatatypeProperty ;
+ns:tieneCoddistBarrio a owl:ObjectProperty ;
     rdfs:label "tiene coddist barrio" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:integer .
+    rdfs:range ns:coddistbar .
 
-ns:tieneCodigodistrito a owl:DatatypeProperty ;
+ns:tieneCodigodeBarrio a owl:ObjectProperty ;
+    rdfs:label "tiene codigode barrio" ;
+    rdfs:domain ns:Hospital ;
+    rdfs:range ns:codbarrio .
+
+ns:tieneCodigodistrito a owl:ObjectProperty ;
     rdfs:label "tiene codigodistrito" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:integer .
+    rdfs:range ns:coddistrit .
 
-ns:hasShape a owl:DatatypeProperty ;
-    rdfs:label "has shape" ;
+ns:wasCreatedin a owl:ObjectProperty ;
+    rdfs:label "was createdin" ;
     rdfs:domain ns:Hospital ;
-    rdfs:range xsd:string .
+    rdfs:range ns:Fecha .
 
-ns:Hospital a owl:Class ;
-    rdfs:label "Hospital" .
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
 
 ns:Barrio a owl:Class ;
     rdfs:label "Barrio" .
 
 ns:Camas a owl:Class ;
     rdfs:label "Camas" .
+
+ns:Direccion a owl:Class ;
+    rdfs:label "Direccion" .
+
+ns:Fecha a owl:Class ;
+    rdfs:label "Fecha" .
+
+ns:Financiaci a owl:Class ;
+    rdfs:label "Financiaci" .
+
+ns:Nombre a owl:Class ;
+    rdfs:label "Nombre" .
+
+ns:Tipo a owl:Class ;
+    rdfs:label "Tipo" .
+
+ns:codbarrio a owl:Class ;
+    rdfs:label "codbarrio" .
+
+ns:coddistbar a owl:Class ;
+    rdfs:label "coddistbar" .
+
+ns:coddistrit a owl:Class ;
+    rdfs:label "coddistrit" .
+
+ns:Hospital a owl:Class ;
+    rdfs:label "Hospital" .
+
